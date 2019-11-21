@@ -1,0 +1,19 @@
+---
+---
+{% if entry.journal%}
+
+{% if entry.pages %}
+
+{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i> <b>{{entry.volume}}</b>, {{entry.pages}}.
+
+{% else %}
+
+{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i> <b>{{entry.volume}}</b> {{entry.issue}}.
+
+{% endif %}
+
+{% else %}
+
+{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In <i>{{entry.booktitle}}</i>.  &nbsp; {{entry.publisher}}.
+
+{% endif %}
