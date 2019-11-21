@@ -1,102 +1,3 @@
-% Encoding: UTF-8
----
----
-References
-==========
-
-@INPROCEEDINGS{volpetti2020,
-title = {Temporal word embeddings for narrative understanding},
-series = {ACM Press International Conference Proceedings Series},
-publisher = {ACM},
-booktitle = {Proceedings of the 12th International Conference on Machine Learning and Computing (ICMLC 2020)},
-author = {Volpetti, Claudia and K, Vani and Antonucci, Alessandro},
-pages = {},
-year = {2020},
-note = {ISBN: 978-1-4503-7642-6},
-abstract={We propose temporal word embeddings as a suitable tool to study the evolution of characters and their sentiments across the plot of a narrative text. The dynamic evolution of instances within a narrative text is a challenging task, where complex behavioral evolutions and other characteristics specific to the narrative text need to be inferred and interpreted. While starting from an existing approach to the learning of these models, we propose an alternative initialization procedure which seems to be especially suited for the case of narrative text. As a validation benchmark, we use the Harry Potter series of books as a challenging case study for such character trait evolution. A benchmark data set based on temporal word analogies related to the characters in the plot of the series is considered. The results are promising, and the empirical validation seems to support the working ideas behind this proposal.}}
-
-@inproceedings{antonucci2019a,
-title = {Reliable discretisation of deterministic equations in Bayesian networks},
-author = {Antonucci, A.},
-booktitle = {Proceedings of the Thirty-Second International Florida Artificial Intelligence Research Society Conference, {FLAIRS} 2019, Sarasota, Florida, {USA} May 19-22 2019},
-year = {2019},
-pages = {453-457},
-publisher = {AAAI Press},
-abstract = {We focus on the problem of modeling deterministic equations over continuous variables in discrete Bayesian networks. This is typically achieved by a discretisation of both input and output variables and a degenerate quantification of the corre- sponding conditional probability tables. This approach, based on classical probabilities, cannot properly model the information loss induced by the discretisation. We show that a reli- able modeling of such epistemic uncertainty can be instead achieved by credal sets, i.e., convex sets of probability mass functions. This transforms the original Bayesian network in a credal network, possibly returning interval-valued inferences, that are robust with respect to the information loss induced by the discretisation. Algorithmic strategies for an optimal choice of the discretisation bins are also discussed.}}
-
-@journal{antonucci2019b,
-title = {Modeling Deterministic Equations in Discrete Bayesian Networks by Credal Networks},
-author = {Alessandro Antonucci},
-year={2018},
-journal = {J. Phys.: Conf. Ser.},
-volume = {1065},
-issue = {212014}}
-
-
-@inproceedings{marchetti2018a,
-author = {Marchetti, S. and Antonucci, A.},
-year = {2018},
-title = {Reliable uncertain evidence modeling in Bayesian networks by credal networks},
-booktitle = {Proceedings of the 31st International Flairs Conference}, 
-publisher = {AAAI Press}, 
-pages = {513–518}}
-
-@InProceedings{marchetti2018b,
-  author    = {Marchetti, S. and Antonucci, A.},
-  title     = {Imaginary kinematics},
-  booktitle = {Proceedings of the 34th Conference on Uncertainty in Artificial Intelligence},
-  year      = {2018},
-  pages     = {104–113},
-  publisher = {AUAI Press},
-}
-
-@InProceedings{mattei2019a,
-  author    = {Antonucci, A. and Facchini, A. and Mattei, L. and Antonucci, Alessandro and Facchini, Alessandro and Mattei, Lilith},
-  title     = {Credal sentential decision diagrams},
-  booktitle = {Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications},
-  year      = {2019},
-  editor    = {De Bock, Jasper and {de Campos}, Cassio P. and {de Cooman}, Gert and Quaeghebeur, Erik and Wheeler, Gregory},
-  volume    = {103},
-  series    = {Proceedings of Machine Learning Research},
-  pages     = {14--22},
-  address   = {Thagaste, Ghent, Belgium},
-  month     = {03--06 Jul},
-  publisher = {PMLR},
-  abstract  = {\emph{Probabilistic sentential decision diagrams} are logical circuits annotated by probability mass functions on the disjunctive gates. This allows for a compact representation of joint mass functions consistent with logical constraints. We propose a \emph{credal} generalisation of the probabilistic quantification of these models, that allows to replace the local probabilities with (credal) sets of mass functions specified by linear constraints. This induces a joint credal set, that sharply assigns probability zero to states inconsistent with the constraints. These models can support cautious estimates of the local parameters when only small amounts of training data are available. Algorithmic strategies to compute lower and upper bounds of marginal and conditional queries are provided. The task can be achieved in linear time with respect to the diagram size for marginal queries. The same can be done for conditional queries if the topology of the circuit is singly connected.},
-  file      = {antonucci19a.pdf:http\://proceedings.mlr.press/v103/antonucci19a/antonucci19a.pdf:PDF},
-  url       = {http://proceedings.mlr.press/v103/antonucci19a.html},
-}
-
-
-@inproceedings{antonucci2018a,
-author = {Antonucci, A. and Facchini, A.},
-year = {2018},
-title = {A credal extension of independent choice logic}, 
-booktitle = {Proceedings of the 12th International Conference on Scalable Uncertainty Management (SUM 2018)},
-pages = {35–49}}
-
-@inproceedings{antonucci2018b,
-author = {Antonucci, A. and Facchini, A.},
-year = {2018},
-title = {Set-valued probabilistic sentential decision diagrams},
-booktitle = {Proceedings of the 5th Workshop on Probabilistic Logic Programming}}
-
-@inproceedings{mattei2019b,
-title = {Exploring the space of probabilistic sentential decision diagrams},
-author = {Mattei, L. and Soares, D.L. and Antonucci, A. and Mauà, D.D. and Facchini, A.},
-year = {2019},
-abstract = {Probabilistic sentential decision diagrams (PS- DDs) are annotated circuits providing a possibly compact specification of joint probability mass functions consistent with a formula over a set of propositional variables. PSDD inference is tractable in the sense that marginal queries can be achieved in linear time with respect to the circuit size by traversal algorithms. Unlike other probabilistic graphical models such as Bayesian networks, the problem of learning the structure for PSDDs received relatively little attention. We discuss some preliminary ideas related to the development of pure likelihood-score-based search methods for the learning of PSDD structures fit- ting a formula and a data set of consistent obser- vations. A sampling algorithm for these models is also provided.},
-booktitle = {Proceedings of the third Tractable Probabilistic Modeling Workshop, 36th International Conference on Machine Learning, Long Beach, California.},
-url = {https://sites.google.com/view/icmltpm2019/home}}
-
-@InProceedings{k2019,
-  author    = {K, V. and Antonucci, A.},
-  title     = {NOVEL2GRAPH: Visual summaries of narrative text enhanced by machine learning.},
-  booktitle = {Proceedings of the Text2Story IR'19 Workshop, Cologne, Germany, 14 April 2019},
-  year      = {2019},
-  pages     = {29 – 37},
-}
-
 @INPROCEEDINGS{antonucci2016d,
 title = {Adaptive testing by {B}ayesian networks with application to language assessment},
 editor = {Micarelli, Alessandro and Stamper, John and Panourgia, Kitty},
@@ -112,25 +13,19 @@ url = {http://link.springer.com/content/pdf/bbm%3A978-3-319-39583-8%2F1.pdf}
 @ARTICLE{antonucci2016c,
 title = {The multilabel naive credal classifier},
 journal = {International Journal of Approximate Reasoning},
-author={Antonucci, Alessandro and Corani, Giorgio},
+author = {Antonucci, A. and Corani, G.},
+number = {in press},
 year = {2016},
-volume={83},
-pages={320--336},
-year={2017},
-publisher={Elsevier},
 doi = {10.1016/j.ijar.2016.10.006},
 abstract={A credal classifier for multilabel data is presented. This is obtained as an extension of Zaffalon's naive credal classifier to the case of non-exclusive class labels. The dependence relations among the labels are shaped with a tree topology. The classifier, based on a polynomial-time algorithm to compute whether or not a class label is optimal, returns a compact description of the set of optimal sequences of labels. Extensive experiments on real multilabel data show that the classifier gives more robust predictions than its Bayesian counterpart. In practice, when multiple sequences are returned in output, the Bayesian model is more likely to be inaccurate, while the sequences returned by the credal classifier are more likely to include the correct one.}}
-
 
 @ARTICLE{antonucci2016b,
 title = {Evaluating interval-valued influence diagrams},
 journal = {International Journal of Approximate Reasoning},
-author={Caba{\~n}as, Rafael and Antonucci, Alessandro and Cano, Andr{\'e}s and G{\'o}mez-Olmedo, Manuel},
-journal={International Journal of Approximate Reasoning},
-volume={80},
-pages={393--411},
-year={2017},
-publisher={Elsevier},
+author = {Caba\~nas, R. and Antonucci, A. and Cano, A. and G\'omez-Olmedo, M.},
+number = {in press},
+year = {2016},
+doi = {10.1016/j.ijar.2016.05.004},
 abstract={Influence diagrams are probabilistic graphical models used to represent and solve sequential decision problems under uncertainty. Sharp numerical values are required to quantify probabilities and utilities. This might be an issue with real models, whose parameters are typically obtained from expert judgements or partially reliable data. We consider an interval-valued quantification of the parameters to gain realism in the modeling and evaluate the sensitivity of the inferences with respect to perturbations in the sharp values of the parameters. An extension of the classical influence diagrams formalism to support such interval-valued potentials is presented. The variable elimination and arc reversal inference algorithms are generalized to cope with these models. At the price of an outer approximation, the extension keeps the same complexity as with sharp values. Numerical experiments show improved performances with respect to previous methods. As a natural application, we propose these models for practical sensitivity analysis in traditional influence diagrams. The maximum perturbation level on single or multiple parameters preserving the optimal strategy can be computed. This allows the identification of the parameters deserving a more careful elicitation.}}
 
 @INCOLLECTION{antonucci2016a,
@@ -169,14 +64,9 @@ url = {https://sites.google.com/site/nipsts2015/home}}
    title = {Hidden {M}arkov models with set-valued parameters},
    journal = {Neurocomputing},
    author = {Mau\'a, D.D. and Antonucci, A. and de Campos, C.P.},
-   doi = {doi:10.1016/j.neucom.2015.08.095},
-abstract={Hidden Markov models (HMMs) are widely used probabilistic models of sequential data. As with other probabilistic models, they require the specification of local conditional probability distributions, whose assessment can be too difficult and error-prone, especially when data are scarce or costly to acquire. The imprecise HMM (iHMM) generalizes HMMs by allowing the quantification to be done by sets of, instead of single, probability dis- tributions. iHMMs have the ability to suspend judgment when there is not enough statistical evidence, and can serve as a sensitivity analysis tool for standard non-stationary HMMs. In this paper, we consider iHMMs under the strong independence interpretation, for which we develop efficient infer- ence algorithms to address standard HMM usage such as the computation of likelihoods and most probable explanations, as well as performing filter- ing and predictive inference. Experiments with real data show that iHMMs produce more reliable inferences without compromising the computational efficiency.},  
-volume={180},
-  pages={94--107},
-  year={2016},
-  publisher={Elsevier}
-}
-
+   year = {2015},
+   doi = {doi:10.1016/j.neucom.2015.08.095}
+abstract={Hidden Markov models (HMMs) are widely used probabilistic models of sequential data. As with other probabilistic models, they require the speci- fication of local conditional probability distributions, whose assessment can be too difficult and error-prone, especially when data are scarce or costly to acquire. The imprecise HMM (iHMM) generalizes HMMs by allowing the quantification to be done by sets of, instead of single, probability dis- tributions. iHMMs have the ability to suspend judgment when there is not enough statistical evidence, and can serve as a sensitivity analysis tool for standard non-stationary HMMs. In this paper, we consider iHMMs under the strong independence interpretation, for which we develop efficient infer- ence algorithms to address standard HMM usage such as the computation of likelihoods and most probable explanations, as well as performing filter- ing and predictive inference. Experiments with real data show that iHMMs produce more reliable inferences without compromising the computational efficiency.}}
 
 
 @INPROCEEDINGS{antonucci2015a,
@@ -193,6 +83,7 @@ title = {Variable elimination for interval-valued influence diagrams},
 booktitle = {Proceedings of the 13th European Conference on Symbolic and Quantitative Approaches to Reasoning {w}ith Uncertainty},
 author = {Caba\~nas, R. and Antonucci, A. and Cano, A. and G\'omez-Olmedo, M.},
 year = {2015},
+note = {accepted for publication},
 abstract={Influence diagrams are probabilistic graphical models used to represent and solve decision problems under uncertainty. Sharp numerical values are required to quantify probabilities and utilities. Yet, real models are based on data streams provided by partially reliable sensors or experts. We propose an interval-valued quantification of these parameters to gain realism in the modelling and to analyse the sensitivity of the inferences with respect to perturbations of the sharp values. An extension of the classical influence diagrams formalism to support interval-valued potentials is provided. Moreover, a variable elimination algorithm especially designed for these models is developed and evalu- ated in terms of complexity and empirical performances.}}
 
 @INPROCEEDINGS{antonucci2014g, 
@@ -222,17 +113,11 @@ year      = {2014},
 volume    = {50},
 pages     = {603--637}}
 
-
 @ARTICLE{antonucci2014d,
+author = {Antonucci, A. and de Campos, C.P. and Zaffalon, M. and Huber, D.},
 title = {Approximate credal network updating by linear programming with applications to decision making},
 journal = {International Journal of Approximate Reasoning},
-author={Antonucci, A. and de Campos, C.P. and Huber, D. and Zaffalon, M.},
-journal={International Journal of Approximate Reasoning},
-volume={58},
-pages={25--38},
-year={2015},
-publisher={Elsevier}
-}
+year = {accepted for publication}}
 
 @INPROCEEDINGS{antonucci2014c,
 author = {Mau\'a, D.D. and de Campos, C.P. and Antonucci, A.},
@@ -279,13 +164,13 @@ abstract = {An algorithm for approximate credal network updating is presented. T
 title = {Temporal data classification by imprecise dynamical models},
 editor = {Cozman, F. and Denoeux, T. and Destercke, S. and Seidenfeld, T.},
 publisher = {SIPTA},
-booktitle = {ISIPTA '13: Proceedings of the Eighth International Symposium on Imprecise Probability: Theories and Applications},
+booktitle = {{ISIPTA} '13: Proceedings of the Eighth International Symposium on Imprecise Probability: Theories and Applications},
 author = {Antonucci, A. and de Rosa, R. and Giusti, A. and Cuzzolin, F.},
 year = {2013},
 abstract = { We propose a new methodology to classify temporal data with imprecise hidden Markov models. For each sequence we learn a different model by coupling the EM algorithm with the imprecise Dirichlet model. As a model descriptor, we consider the expected value of the observable variable in the limit of stationar- ity of the Markov chain. In the imprecise case, only the bounds of this descriptor can be evaluated. In practice the sequence, which can be regarded as a trajectory in the feature space, is summarized by a hyperbox in the same space. We classify these static but interval-valued data by a credal generalization of the k-nearest neighbors algorithm. Experiments on benchmark datasets for computer vision show that the method achieves the required robustness whilst outperforming other precise and imprecise methods.}}
 
 @INPROCEEDINGS{antonucci2013c,
-title = {CREDO: a military decision-support system based on credal networks},
+title = {{CREDO}: a military decision-support system based on credal networks},
 booktitle = {Proceedings of the 16th Conference on Information Fusion ({FUSION} 2013)},
 author = {Antonucci, A. and Huber, D. and Zaffalon, M. and Luginb\"uhl, P. and Chapman, I. and Ladouceur, R.},
 year = {2013},
@@ -444,7 +329,7 @@ booktitle = {Belief Functions: Theory and Applications - Proceedings of the 2nd
 @INPROCEEDINGS{antonucci2007b,
   author = {Antonucci, A. and Br\"uhlmann, R. and Piatti, A. and Zaffalon, M.},
   title = {Credal networks for military identification problems},
-  booktitle = {{ISIPTA} '07: Proceedings of the fifth International Symposium on on
+  booktitle = {ISIPTA '07: Proceedings of the fifth International Symposium on on
 	Imprecise Probability: Theories and Applications},
   year = {2007},
   editor = {de Cooman, G, Vejnarov\'a, J., Zaffalon, M.},
@@ -1188,4 +1073,3 @@ year      = {2012}
 	along the drainage network.}
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
