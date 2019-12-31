@@ -4,10 +4,10 @@
 
 # Basic
 name:               "Alessandro Antonucci"
-description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+description:        "Academic Website"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kiko.gfjaru.com"
+url:                "alessandroantonucci.me"
 author:             "gfjaru"
 twitter:
   username:         "gfjaru"
@@ -27,7 +27,7 @@ markdown:           kramdown
 nav:
   - name:           "Publications"
     remote:         false
-    localpath:      "about"
+    localpath:      "./about/"
   - name:           "Scholar"
     remote:         true
     href:           "//scholar.google.lt/citations?hl=it&view_op=list_works&gmla=AJsN-F4NLhgCkr_uc91Wa735D_0wWO8Z0kM1SL_p8D5Am8nL1SjS_aiFKa8bLSO_IB8ILP5mu1RkuPpxgzDm3Yf2b9Ck9bqAsnMvW8L4-wFWQGjZAM2xc5o&user=0uOsJggAAAAJ

@@ -3,49 +3,38 @@
 {% if entry.type == 'article' %}
 
 	{% if entry.pages == blank %}
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i> <b>{{entry.volume}}</b>.
+	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i> <b>{{entry.volume}}</b>.
 	{% else %}
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i>.
-	<b>{{entry.volume}}</b>, {{entry.pages}}.
+	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i>.
+	<b>{{entry.volume}}</b> {% if entry.number != blank %}({{entry.number}}){% endif %}, {{entry.pages}}.
 	{% endif %}
 
 {% elsif entry.type == 'inproceedings' %}
 
-
 	{% if entry.editor == blank %}
-
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In <i>{{entry.booktitle}}</i>. {{entry.venue}}, {{entry.eventdate}}.  
-
+	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In <i>{{entry.booktitle}}</i>. &nbsp; {{entry.venue}}, &nbsp; {{entry.eventdate}}.  
 	{% else %}
-
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds), <i>{{entry.booktitle}}</i>.  
- {{entry.venue}}, {{entry.eventdate}}.  
-
+	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds), <i>{{entry.booktitle}}</i>. &nbsp;  {{entry.venue}}, &nbsp; {{entry.eventdate}}.  
 	{% endif %}
-
 	{% if entry.publisher %}
 	&nbsp; {{entry.publisher}}.
 	{% endif %}
 
 {% elsif entry.type == 'incollection' %}
 
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In <i>{{entry.booktitle}}</i>.  
-{% if entry.publisher %}
-&nbsp; {{entry.publisher}}.
-{% endif %}
+	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds), <i>{{entry.booktitle}}</i>.
+&nbsp; {{entry.venue}}, {{entry.eventdate}}. 
+&nbsp; {{entry.series}} <b>{{entry.volume}}</b>, {{entry.publisher}}, {{entry.pages}}.  
 
 {% elsif entry.type == 'inbook' %}
-{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds.), <i>{{entry.booktitle}}</i>, <b>{{entry.volume}}</b>, {{entry.publisher}}, {{entry.address}}.
+{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds.), <i>{{entry.booktitle}}</i>, <b>{{entry.volume}}</b>, {{entry.publisher}}, {{entry.address}}.
 
 
 {% elsif entry.type == 'phdthesis' %}
 
-{{entry.author}} ({{entry.year}}). &nbsp; <a href="http://www.idsia.ch/~alessandro/papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; Ph.D. Thesis, {{entry.school}}. 
-
+	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; Ph.D. Thesis, {{entry.school}}. 
 {% endif %}
-
-{% if entry.abstract != blank %}
-	<details><summary>(click to read the abstract)</summary><p>{{entry.abstract}}</p></details>
-{% endif %}
-
+{% if entry.abstract != blank %} <details><summary>(abstract)</summary><pre>{{entry.abstract}}</pre></details> {% endif %}
+<details><summary>(bibtex entry)</summary><pre class="collapse">{{entry.bibtex}}</pre></details>
+<details><summary>(<a href="../papers/{{entry.key}}.pdf">preprint</a>)</summary></details>
 <hr>

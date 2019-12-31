@@ -436,10 +436,6 @@ tbody tr:nth-child(odd) th {
 
 details > summary::-webkit-details-marker {
   display: none;
+  font-size: .55rem;
 }
 
-details > p {
-  color: #C0C0C0;
-  padding: 2px 6px;
-  margin: 10;
-}
