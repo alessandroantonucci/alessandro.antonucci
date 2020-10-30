@@ -1,40 +1,14 @@
----
----
-{% if entry.type == 'article' %}
-
-	{% if entry.pages == blank %}
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i> <b>{{entry.volume}}</b>.
-	{% else %}
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; <i>{{entry.journal}}</i>.
-	<b>{{entry.volume}}</b> {% if entry.number != blank %}({{entry.number}}){% endif %}, {{entry.pages}}.
-	{% endif %}
-
-{% elsif entry.type == 'inproceedings' %}
-
-	{% if entry.editor == blank %}
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In <i>{{entry.booktitle}}</i>. &nbsp; {{entry.venue}}, &nbsp; {{entry.eventdate}}.  
-	{% else %}
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds), <i>{{entry.booktitle}}</i>. &nbsp;  {{entry.venue}}, &nbsp; {{entry.eventdate}}.  
-	{% endif %}
-	{% if entry.publisher %}
-	&nbsp; {{entry.publisher}}.
-	{% endif %}
-
-{% elsif entry.type == 'incollection' %}
-
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds), <i>{{entry.booktitle}}</i>.
-&nbsp; {{entry.venue}}, {{entry.eventdate}}. 
-&nbsp; {{entry.series}} <b>{{entry.volume}}</b>, {{entry.publisher}}, {{entry.pages}}.  
-
-{% elsif entry.type == 'inbook' %}
-{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; In {{entry.editor}} (Eds.), <i>{{entry.booktitle}}</i>, <b>{{entry.volume}}</b>, {{entry.publisher}}, {{entry.address}}.
-
-
-{% elsif entry.type == 'phdthesis' %}
-
-	{{entry.author}} ({{entry.year}}). &nbsp; <a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a>.  &nbsp; Ph.D. Thesis, {{entry.school}}. 
+<div class="bibliography">
+{% if entry.type == 'book' %}
+<h4><a href="{{entry.url}}">{{entry.title}}</a></h4>
+<h5>{{entry.editor}} ({{entry.year}})</h5>
+<p class="myitem">
+{{entry.series}} <b>{{entry.volume}}</b>, {{entry.publisher}}.</p>
+{% else %}
+<a name="{{entry.key}}"></a>
+<h4><a href="../papers/{{entry.key}}.pdf">{{entry.title}}</a></h4>
+<h5>{{entry.author}} ({{entry.year}}).</h5>
+<p class="myitem">
+{% if entry.type == 'article' %}<i>{{entry.journal}}</i> <b>{{entry.volume}}</b>{% if entry.number != blank %}({{entry.number}}){% endif %},&nbsp;{{entry.pages}}.&nbsp;{% elsif entry.type == 'inproceedings' %}In {% if entry.editor.size > 0  %}{{entry.editor}} (Eds),&nbsp;{% endif %}<i>{{entry.booktitle}}</i>.{% if entry.address != blank %}&nbsp;{{entry.address}}{% endif %}{% if entry.eventdate !=blank %},&nbsp;{{entry.eventdate}}.&nbsp;{% else %}.&nbsp;{% endif %}{% if entry.location !=blank %}&nbsp;{{entry.location}}.&nbsp;{% endif %}{% if entry.series != blank %}{{entry.series}}{% endif %}{% if entry.volume != blank %}&nbsp;{{entry.volume}}{% endif %}{% if entry.series != blank or entry.volume != blank %},&nbsp;{% endif %}{% if entry.publisher != blank %}{{entry.publisher}}{% endif %}{% if entry.pages != blank %},&nbsp;{{entry.pages}}{% endif %}{% if entry.publisher != blank or entry.pages != blank %}.&nbsp;{% endif %}{% elsif entry.type == 'inbook' %}In {% if entry.editor.size > 0  %}{{entry.editor}} (Eds),&nbsp;{% endif %}<i>{{entry.booktitle}}</i>.{% if entry.location !=blank %}&nbsp;{{entry.location}}.&nbsp;{% endif %}{% if entry.publisher != blank %}{{entry.publisher}}{% endif %}{% if entry.pages != blank %},&nbsp;{{entry.pages}}{% endif %}{% if entry.publisher != blank or entry.pages != blank %}.&nbsp;{% endif %}{% elsif entry.type == "phdthesis" %}Ph.D. Thesis, {{entry.school}}.{% endif %}<span><details><summary>BIB</summary><pre class="collapse">{{entry.bibtex}}</pre></details>&nbsp;{% if entry.abstract != blank %}<details><summary>ABS</summary><p class="abstract">{{entry.abstract}}</p></details>&nbsp;{% endif %}<a class="mytags" href="../papers/{{entry.key}}.pdf">PDF</a>&nbsp;{% if entry.doi != blank %}<a class="mytags" href="http://doi.org/{{entry.doi}}">DOI</a>&nbsp;{% endif %}{% if entry.url != blank %}<a class="mytags" href="{{entry.url}}">URL</a>&nbsp;{% endif %}</span></p>
 {% endif %}
-{% if entry.abstract != blank %} <details><summary>(abstract)</summary><pre>{{entry.abstract}}</pre></details> {% endif %}
-<details><summary>(bibtex entry)</summary><pre class="collapse">{{entry.bibtex}}</pre></details>
-<details><summary>(<a href="../papers/{{entry.key}}.pdf">preprint</a>)</summary></details>
-<hr>
+</div><hr>

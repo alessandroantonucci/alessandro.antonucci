@@ -3,25 +3,38 @@ layout: default
 ---
 <header class="masthead">
   <h1 class="masthead-title">
-    <a href="http://www.idsia.ch">{{ site.name }}<span>&#39; @ idsia.ch</span></a>
+    <a href="http://www.idsia.ch">{{ site.name }} <span>@ idsia.ch</span></a>
   </h1>
   <nav class="masthead-nav">
     {% for nav in site.nav %}
       {% if nav.remote %}
-      <a href="{{ nav.href }}">{{ nav.name }}</a>
+      <a href="{{ nav.href }}">[{{ nav.name }}]</a>
       {% else %}
-      <a href="{{ site.baseurl }}/{{ nav.localpath }}">{{ nav.name }}</a>
+      <a href="{{ site.baseurl }}/{{ nav.localpath }}">[{{ nav.name }}]</a>
       {% endif %}
     {% endfor %}
   </nav>
 </header>
+<img src="./antonucci.png">
 <p>Senior Lecturer-Researcher at <a href="http://www.idsia.ch">IDSIA</a> (
-<a href="http://www.supsi.ch/dti">DTI</a> - <a href="http://www.supsi.ch">SUPSI</a> )</br>
-Imprecise Probability <a href="http://ipg.idsia.ch">Group</a></p>
+<a href="http://www.supsi.ch/dti">DTI</a> - <a href="http://www.supsi.ch">SUPSI</a> / <a href="http://www.usi.ch">USI</a> )</br>
+Imprecise Probability <a href="http://ipg.idsia.ch">Group</a> Member</br/><a href="https://www.journals.elsevier.com/international-journal-of-approximate-reasoning">IJAR</a> Area Editor and <a href="http://www.sipta.org">SIPTA</a> Treasurer</p>
 <p>alessandro@idsia.ch ( mail )</br>
 <a href="https://www.google.it/maps/place/IDSIA+-+Istituto+Dalle+Molle+di+studi+sull'Intelligenza+Artificiale/@46.0261922,8.9162931,17z/data=!3m1!4b1!4m5!3m4!1s0x4784329807fc5499:0x1cfc497f0b9b4342!8m2!3d46.0261922!4d8.9184818">Idsia</a> - Room 202 - Galleria 1, Via Cantonale</br>CH-6928 Manno - Switzerland ( office )</br> 
-+41 58 6666579 ( tel )</br>
-alessandro.antonucci ( skype )</p>
+alessandro.antonucci@supsi.ch ( teams )</br>
+alessandro.antonucci ( skype )</br>
++41 58 6666579 ( tel )</p>
+
+<p><small>Last update: October 29, 2020</small></p>
+
+<p>My research is mostly focused in the area of probabilistic (and imprecise-probabilistic) graphical models and their approcation to approximate reasoning and machine learning. This involves many different areas such as <a href="./publications/index.html#zaffalon2020a">causality</a>, models mixing <a href="./publications/index.html#mattei2020a">logics and probabilities</a>, but also applications to <a href="./publications/index.html#kanjirangat2020a">natural language processing</a> and <a href="./publications/index.html#mangili2020a">recommender systems</a>.</p>
+<p>My most recent publications are here below. You can find the complete list <a href="./publications/">here</a></p>
+
+<br/>
+{% bibliography -q !@book -q @*[year=2020] %}
+<br/>
+<h3><a href="#top" class="mytags2">[ Back to the top ]</a></h3>
+
 <!--
 <div class="content list">
 {% if site.posts.size == 0 %}
@@ -38,4 +51,5 @@ alessandro.antonucci ( skype )</p>
   </div>
 {% endfor %}
 {% endif %}
-</div>-->
+</div>
+-->

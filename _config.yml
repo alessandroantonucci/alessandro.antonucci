@@ -27,7 +27,7 @@ markdown:           kramdown
 nav:
   - name:           "Publications"
     remote:         false
-    localpath:      "./about/"
+    localpath:      "./publications/"
   - name:           "Scholar"
     remote:         true
     href:           "//scholar.google.lt/citations?hl=it&view_op=list_works&gmla=AJsN-F4NLhgCkr_uc91Wa735D_0wWO8Z0kM1SL_p8D5Am8nL1SjS_aiFKa8bLSO_IB8ILP5mu1RkuPpxgzDm3Yf2b9Ck9bqAsnMvW8L4-wFWQGjZAM2xc5o&user=0uOsJggAAAAJ
@@ -55,6 +55,12 @@ defaults:
 scholar:
   style: apa
   bibliography_template: bib
+  sort_by: year, month
+  order: descending
+  reversed: "reversed"
+  bibliography_list_attributes:
+    reversed: "reversed" # This reverses the numbering of publications in the sorted group.
+
 
 gems:
   - jekyll-seo-tag
