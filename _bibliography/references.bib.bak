@@ -19,13 +19,13 @@
 	Author = {Antonucci, Alessandro and Salvetti, Andrea and Zaffalon, Marco},
 	Booktitle = {iEMSs 2004: Complexity and Integrated Resources Management, Transactions of the 2nd Biennial Meeting of the International Environmental Modelling and Software Society},
 	Editor = {Pahl-Wostl, C. and Schmidt, S. and Rizzoli, A. E. and Jakeman, A. J.},
-	Eventdate = {Jun 14-17 2004},
+	Eventdate = {Jun 14-17, 2004},
 	Organization = {Manno, Switzerland},
 	Pages = {98--103},
 	Publisher = {iEMSs},
 	Title = {Hazard Assessment of Debris Flows by Credal Networks},
 	Url = {http://www.iemss.org/iemss2004/pdf/ai/antohaza.pdf},
-	Venue = {Osnanbr{\"u}ck, Germany},
+	address= {Osnanbr{\"u}ck, Germany},
 	Year = {2004},
 	Bdsk-Url-1 = {http://www.iemss.org/iemss2004/pdf/ai/antohaza.pdf}}
 
@@ -34,12 +34,12 @@
 	Author = {Antonucci, Alessandro and Salvetti, Andrea and Zaffalon, Marco},
 	Booktitle = {Proceedings of the Second International Conference on {S}oft {M}ethods in {P}robability and {S}tatistics ({SMPS}-2004) - Soft Methodology and Random Information Systems},
 	Editor = {Lopez-Diaz, M. and Gil, M. A. and Grzegorzewski, P. and Hryniewicz, O. and Lawry, J.},
-	Eventdate = {Sep 2-4 2004},
+	Eventdate = {Sep 2-4, 2004},
 	Pages = {125--132},
 	Publisher = {Springer},
 	Title = {Assessing Debris Flow Hazard by Credal Nets},
 	Url = {http://www.idsia.ch/~zaffalon/papers/smps2004.pdf},
-	Venue = {Oviedo, Spain},
+	address = {Oviedo, Spain},
 	Year = {2004},
 	Bdsk-Url-1 = {http://www.idsia.ch/~zaffalon/papers/smps2004.pdf}}
 
@@ -64,11 +64,11 @@
 	Author = {Antonucci, Alessandro and Zaffalon, Marco},
 	Booktitle = {ISIPTA '06: Proceedings of the fourth {I}nternational {S}ymposium on {I}mprecise {P}robabilities and {T}heir {A}pplications},
 	Editor = {Cozman, Fabio Gagliardi and Nau, Robert and Seidenfeld, Teddy},
-	Eventdate = {Jul 20-23 2005},
+	Eventdate = {Jul 20-23, 2005},
 	Pages = {11-20},
 	Publisher = {SIPTA},
 	Title = {Fast Algorithms for Robust Classification with {B}ayesian Nets},
-	Venue = {Pittsburgh, Pennsylvania, USA},
+	address = {Pittsburgh, Pennsylvania, USA},
 	Year = {2005}}
 
 @inproceedings{antonucci2006a,
@@ -82,11 +82,11 @@
 	Author = {Antonucci, Alessandro and Zaffalon, Marco},
 	Booktitle = {Proceedings of third international conference on {S}oft {M}ethods in {P}robability and {S}tatistics ({SMPS}-2006)},
 	Editor = {Lawry, J. and Miranda, E. and Bugarin, A. and Li, S. and Gil, M. A. and Grzegorzewski, P. and Hryniewicz, O.},
-	Eventdate = {Sep 5-7 2006},
+	Eventdate = {Sep 5-7, 2006},
 	Pages = {223--230},
 	Publisher = {Springer},
 	Title = {Equivalence between {B}ayesian and Credal Nets on an Updating Problem},
-	Venue = {Bristol, United Kingdom},
+	address = {Bristol, United Kingdom},
 	Year = {2006}}
 
 @inproceedings{antonucci2006b,
@@ -104,12 +104,13 @@
 	Address = {Amsterdam (Netherlands)},
 	Author = {Antonucci, Alessandro and Zaffalon, Marco and Ide, Jaime S. and Cozman, Fabio Gagliardi},
 	Booktitle = {STAIRS'06: Proceedings of the third European Starting AI Researcher Symposium},
-	Editor = {Penserini, L. and Peppas, P. and Perini, A.},
-	Eventdate = {Aug 2006},
+	Editor = {Penserini, Loris and Peppas, Pavlos and Perini, Anna},
+	month = aug,
+	Eventdate = {Aug 28, 2006},
 	Pages = {120--131},
 	Publisher = {IOS Press},
 	Title = {Binarization Algorithms for Approximate Updating in Credal Nets},
-	Venue = {Riva del Garda, Italy},
+	address = {Riva del Garda, Italy},
 	Year = {2006}}
 
 @inproceedings{antonucci2006c,
@@ -135,7 +136,7 @@
 	Author = {Antonucci, Alessandro and Zaffalon, Marco},
 	Booktitle = {PGM'06: Proceedings of the third European Workshop on Probabilistic Graphical Models},
 	Editor = {Studen\'y, M. and Vomlel, J.},
-	Eventdate = {Sep 12-15 2006},
+	Eventdate = {Sep 12-15, 2006},
 	Pages = {25--34},
 	Publisher = {Action M Agency},
 	Title = {Locally Specified Credal Networks},
@@ -193,11 +194,11 @@
 	Booktitle = {ISIPTA '07: Proceedings of the fifth International Symposium on on Imprecise Probability: Theories and Applications},
 	Date-Modified = {2019-12-29 12:49:56 +0200},
 	Editor = {de Cooman, Gert and Vejnarov\'a, Jirina and Zaffalon, Marco},
-	Eventdate = {Jul 16-19 2007},
+	Eventdate = {Jul 16-19, 2007},
 	Pages = {1--10},
 	Publisher = {Action M Agency},
 	Title = {Credal Networks for Military Identification Problems},
-	Venue = {Prague, Czech Republic},
+	address = {Prague, Czech Republic},
 	Year = {2007}}
 
 @inproceedings{antonucci2007c,
@@ -222,21 +223,21 @@
 	Author = {Antonucci, Alessandro and Piatti, Alberto and Zaffalon, Marco},
 	Booktitle = {Proceedings of the 11th International Conference on Knowledge-Based and Intelligent Information \& Engineering Systems: KES2007, Lectures Notes in Computer Science},
 	Editor = {Apolloni, B. and Howlett, R. J. and Jain, L. C.},
-	Eventdate = {Sep 12-14 2007},
+	Eventdate = {Sep 12-14, 2007},
 	Pages = {604--611},
 	Publisher = {Springer},
 	Title = {Credal Networks for Operational Risk Measurement and Management},
-	Venue = {Vietri sul Mare, Italy},
+	address = {Vietri sul Mare, Italy},
 	Volume = {4693},
 	Year = {2007}}
 
 @inbook{antonucci2007d,
-	Address = {New York},
+	location = {New York},
 	Author = {Antonucci, Alessandro and Salvetti, Andrea and Zaffalon, Marco},
 	Booktitle = {Progress of Artificial Intelligence in Sustainability Science},
 	Pages = {125--132},
-	Publisher = {Kropp, J., Scheffran, J.},
-	Series = {Nova Science},
+	editor = {Kropp, Jürgen and Scheffran, Jürgen},
+	publisher= {Nova Science},
 	Title = {Credal Networks for Hazard Assessment of Debris Flows},
 	Year = {2007}}
 
@@ -258,10 +259,11 @@
 	Author = {Antonucci, Alessandro and Zaffalon, Marco and Yi, Sun and de Campos, Cassio Polpo},
 	Booktitle = {PGM'08: Proceedings of the Fourth European Workshop on Probabilistic Graphical Models},
 	Editor = {Jaeger, M. and Nielsen, T. D.},
-	Eventdate = {Sep 17-19 2008},
+	Eventdate = {Sep 17-19, 2008},
 	Pages = {17--24},
 	Title = {Generalized Loopy {2U}: A New Algorithm for Approximate Inference in Credal Networks},
-	Venue = {Hirtshals, Denmark},
+	address = {Hirtshals, Denmark},
+	publisher = {PGM},
 	Year = {2008}}
 
 @article{antonucci2008b,
@@ -434,10 +436,11 @@
 	Author = {Antonucci, Alessandro and Benavoli, Alessio and Zaffalon, Marco and de Cooman, Gert and Hermans, Filip},
 	Booktitle = {FUSION 2009: Proceedings of the 12th International Conference on Information Fusion},
 	Date-Modified = {2019-12-29 12:16:20 +0200},
-	Eventdate = {Jul 6-9 2009},
+	Eventdate = {Jul 6-9, 2009},
+	month = jul,
 	Publisher = {IEEE},
 	Title = {Multiple Model Tracking by Imprecise {M}arkov Trees},
-	Venue = {Seattle, Washington, {USA}},
+	address = {Seattle, Washington, {USA}},
 	Year = {2009}}
 
 @inproceedings{antonucci2010a,
@@ -461,12 +464,12 @@
 	Author = {Alessandro Antonucci and Fabio Cuzzolin},
 	Booktitle = {Computational Intelligence for Knowledge-Based Systems Design, 13th International Conference on Information Processing and Management of Uncertainty, IPMU 2010},
 	Editor = {H\"ullermeier, E. and Kruse, R. and Hoffmann, F.},
-	Eventdate = {Jun 28 - Jul 2 2010},
+	Eventdate = {Jun 28 - Jul 2, 2010},
 	Pages = {716-725},
 	Publisher = {Springer},
 	Series = {Lecture Notes in Computer Science},
 	Title = {Credal Sets Approximation by Lower Probabilities: Application to Credal Networks},
-	Venue = {Dortmund, Germany},
+	address = {Dortmund, Germany},
 	Volume = {6178},
 	Year = {2010}}
 
@@ -488,13 +491,14 @@
 	determinacy, we compare the two classifiers when they have comparable
 	determinacy, finding that in those cases they generate almost equivalent
 	classifications.},
+  	editor =    {Coolen, Frank and de Cooman, Gert and Fetz, Thomas and Oberguggenberger, Michael},
 	Author = {Antonucci, Alessandro and Cattaneo, Marco and Corani, Giorgio},
 	Booktitle = {ISIPTA '11: Proceedings of the seventh International Symposium on Imprecise Probability: Theories and Applications},
-	Eventdate = {Jul 25-28 2011},
+	Eventdate = {Jul 25-28, 2011},
 	Pages = {21-30},
 	Publisher = {SIPTA},
 	Title = {Likelihood-Based Naive Hierarchical Credal Classifier},
-	Venue = {Innsbruck, Austria},
+	address = {Innsbruck, Austria},
 	Year = {2011}}
 
 @inproceedings{antonucci2011b,
@@ -516,11 +520,11 @@
 	to be correct, is provided.},
 	Author = {Antonucci, Alessandro and de Rosa, Rocco and Giusti, Alessandro},
 	Booktitle = {Proceedings of the 2011 International Conference on Image Processing, Computer Vision and Pattern Recognition, IPCV 2011},
-	Eventdate = {Jul 18-21 2011},
+	Eventdate = {Jul 18-21, 2011},
 	Pages = {474-478},
 	Publisher = {CSREA Press},
 	Title = {Action Recognition by Imprecise Hidden Markov Models},
-	Venue = {Las Vegas, Nevada, USA},
+	address = {Las Vegas, Nevada, USA},
 	Year = {2011}}
 
 @inproceedings{antonucci2011c,
@@ -539,11 +543,11 @@
 	imprecise-probabilistic quantification of the initiating events.},
 	Author = {Antonucci, Alessandro},
 	Booktitle = {FUSION 2011: Proceedings of the 14th International Conference on Information Fusion},
-	Eventdate = {Jul 5-8 2011},
+	Eventdate = {Jul 5-8, 2011},
 	Pages = {709-715},
 	Publisher = {IEEE},
 	Title = {The Imprecise Noisy-OR Gate},
-	Venue = {Chicago, Illinois, {USA}},
+	address = {Chicago, Illinois, {USA}},
 	Year = {2011}}
 
 @inproceedings{antonucci2011d,
@@ -564,12 +568,12 @@
 	nets and NP-hard for polytrees.},
 	Author = {Antonucci, Alessandro and de Campos, Cassio Polpo},
 	Booktitle = {Proceedings of the International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC 2011)},
-	Eventdate = {Aug 26-27 2011},
+	Eventdate = {Aug 26-27, 2011},
 	Pages = {201-204},
 	Publisher = {IEEE},
 	Title = {Decision Making by Credal Nets},
-	Venue = {Hangzhou, China},
-	Volume = {1},
+	address = {Hangzhou, China},
+	Volume = {Volume 1},
 	Year = {2011}}
 
 @inproceedings{antonucci2012a,
@@ -588,17 +592,17 @@
 	Booktitle = {Belief Functions: Theory and Applications - Proceedings of the 2nd International Conference on Belief Functions},
 	Doi = {https://doi.org/10.1007/978-3-642-29461-7_4},
 	Editor = {Denoeux, T. and Masson M.H.},
-	Eventdate = {9-11 May 2012},
+	Eventdate = {9-11 May, 2012},
 	Pages = {37-44},
 	Publisher = {Springer},
 	Series = {Advances in Soft Computing},
 	Title = {An Interval-Valued Dissimilarity Measure for Belief Functions Based on Credal Semantics},
-	Venue = {Compi{\`e}gne, France},
+	address = {Compi{\`e}gne, France},
 	Volume = {164},
 	Year = {2012},
 	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-642-29461-7_4}}
 
-@incollection{antonucci2012b,
+@inproceedings{antonucci2012b,
 	Abstract = {Bayesian networks are commonly used for classification: a structural
 	learning algorithm determines the network graph, while standard approaches
 	estimate the model parameters from data. Yet, with few data the corresponding
@@ -614,7 +618,7 @@
 	desired robustness.},
 	Author = {Antonucci, Alessandro and Cattaneo, Marco and Corani,Giorgio},
 	Booktitle = {Advances in Computational Intelligence},
-	venue = {Catania, Italy}, 
+	address = {Catania, Italy}, 
 	eventdate = {Jul 9-13, 2012},
 	Editor = {Greco, Salvatore and Bouchon-Meunier, Bernadette and Coletti, Giulianella and Fedrizzi, Mario and Matarazzo, Benedetto and Yager, Ronald R.},
 	Pages = {491--500},
@@ -641,10 +645,11 @@
 	Author = {Antonucci, Alessandro and Corani, Giorgio and Gabaglio, Sandra},
 	Booktitle = {Proceeding of the sixth European Workshop on Probabilistic Graphical Models (PGM 2012)},
 	Editor = {Cano, A. and G\'omez-Olmedo, M. and Nielsen, T.D.},
-	Eventdate = {Sep 19-21 2012},
+	Eventdate = {Sep 19-21, 2012},
 	Pages = {3--10},
+	publisher = {PGM},
 	Title = {Active Learning by the Naive Credal Classifier},
-	Venue = {Granada, Spain},
+	address = {Granada, Spain},
 	Year = {2012}}
 
 @inproceedings{antonucci2013a,
@@ -653,12 +658,12 @@
 	Author = {Antonucci, Alessandro and de Campos, Cassio Polpo and Huber, David and Zaffalon, Marco},
 	Booktitle = {Proceedings of the 12th European Conference on Symbolic and Quantitative Approaches to Reasoning {w}ith Uncertainty},
 	Editor = {van der Gaag, Linda C.},
-	Eventdate = {Jul 7-10 2013},
+	Eventdate = {Jul 7-10, 2013},
 	Pages = {13-25},
 	Publisher = {Springer},
 	Series = {Lecture Notes in Artificial Intelligence},
 	Title = {Approximating Credal Network Inferences by Linear Programming},
-	Venue = {Utrecht, The Netherlands},
+	address = {Utrecht, The Netherlands},
 	Volume = {7958},
 	Year = {2013}}
 
@@ -667,10 +672,10 @@
 	Author = {Antonucci, Alessandro and de Rosa, Rocco and Giusti, Alessandro and Cuzzolin, Fabio},
 	Booktitle = {ISIPTA '13: Proceedings of the Eighth International Symposium on Imprecise Probability: Theories and Applications},
 	Editor = {Cozman, Fabio Gagliardi and Denoeux, T. and Destercke, Sébastien and Seidenfeld, Teddy},
-	Eventdate = {Jul 2-5 2013},
+	Eventdate = {Jul 2-5, 2013},
 	Publisher = {SIPTA},
 	Title = {Temporal Data Classification by Imprecise Dynamical Models},
-	Venue = {Compi{\`e}gne, France},
+	address = {Compi{\`e}gne, France},
 	Year = {2013}}
 
 @inproceedings{antonucci2013c,
@@ -678,9 +683,9 @@
 	Author = {Antonucci, Alessandro and Huber, David and Zaffalon, Marco and Luginb{\"u}hl, Philippe and Chapman, Ian and Ladouceur, Richard},
 	Booktitle = {Proceedings of the 16th Conference on Information Fusion ({FUSION} 2013)},
 	Date-Modified = {2019-12-29 21:25:00 +0200},
-	Eventdate = {Jul 9-12 2013},
+	Eventdate = {Jul 9-12, 2013},
 	Title = {CREDO: A Military Decision-Support System Based on Credal Networks},
-	Venue = {Istanbul, Turkey},
+	address = {Istanbul, Turkey},
 	Year = {2013}}
 
 @inproceedings{antonucci2013d,
@@ -688,21 +693,21 @@
 	Author = {Antonucci, Alessandro and Corani, Giorgio and Mau{\'a}, Denis Deratani and Gabaglio, Sandra},
 	Booktitle = {Proceedings of the 23rd International Joint Conference on Artificial Intelligence ({IJCAI}-13)},
 	Date-Modified = {2019-12-29 12:55:17 +0200},
-	Eventdate = {Aug 3-9 2013},
+	Eventdate = {Aug 3-9, 2013},
 	Title = {An {E}nsemble of {B}ayesian {N}etworks for {M}ultilabel {C}lassification},
-	Venue = {Beijing, China},
+	address = {Beijing, China},
 	Year = {2013}}
 
 @inproceedings{antonucci2014a,
 	Author = {Antonucci, Alessandro and Karlsson, Alexander and Sundgren, David},
 	Booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based Systems},
 	Editor = {Laurent, A. and Strauss, O. and Bouchon-Meunier, B. and Yager, R.R.},
-	Eventdate = {Jul 15-19 2014},
+	Eventdate = {Jul 15-19, 2014},
 	Pages = {456--465},
 	Publisher = {Springer},
 	Series = {Communications in Computer and Information Science},
 	Title = {Decision Making with Hierarchical Credal Sets},
-	Venue = {Montpellier, France},
+	address = {Montpellier, France},
 	Volume = {444},
 	Year = {2014}}
 
@@ -715,7 +720,7 @@
 	booktitle = {Proceedings of the NIPS Time Series Workshop 2015},
 	Title = {Early Classification of Time Series by Hidden {M}arkov Models with Set-valued Parameters},
 	Url = {https://sites.google.com/site/nipsts2015/home},
-	Venue = {Montr{\'e}al, Canada},
+	address = {Montr{\'e}al, Canada},
 	Year = {2015},
 	Bdsk-Url-1 = {https://sites.google.com/site/nipsts2015/home}}
 
@@ -725,10 +730,10 @@
 	editor = {Augustin, Thomas and Doria, Serena and Miranda, Enrique and Quaeghebeur, Erik},
 	Booktitle = {ISIPTA '15: Proceedings of the Ninth International Symposium on Imprecise Probability: Theories and Applications},
 	Date-Modified = {2019-12-29 12:26:29 +0200},
-	Eventdate = {Jul 20-24 2015},
+	Eventdate = {Jul 20-24, 2015},
 	Publisher = {SIPTA},
 	Title = {The Multilabel Naive Credal Classifier},
-	Venue = {Pescara, Italy},
+	address = {Pescara, Italy},
 	Year = {2015}}
 
 @article{antonucci2015c,
@@ -752,6 +757,16 @@
 	Volume = {56},
 	Year = {2015}}
 
+
+@book{antonucci2016a,
+title= {Proceedings of the Eight International Conference on Probabilistic Graphical Models, Lugano, Switzerland, 6-9 Septermber 2016},
+editor =    {Antonucci, Alessandro and Corani, Giorgio and de Campos, Cassio Polpo},
+publisher = {PMLR},
+year = {2016},
+url = {http://proceedings.mlr.press/v52},
+series =    {Proceedings of Machine Learning Research},
+volume =    {52}}
+
 @article{antonucci2017a,
 	Abstract = {A credal classifier for multilabel data is presented. This is obtained as an extension of Zaffalon's naive credal classifier to the case of non-exclusive class labels. The dependence relations among the labels are shaped with a tree topology. The classifier, based on a polynomial-time algorithm to compute whether or not a class label is optimal, returns a compact description of the set of optimal sequences of labels. Extensive experiments on real multilabel data show that the classifier gives more robust predictions than its Bayesian counterpart. In practice, when multiple sequences are returned in output, the Bayesian model is more likely to be inaccurate, while the sequences returned by the credal classifier are more likely to include the correct one.},
 	Author = {Antonucci, Alessandro and Corani, Giorgio},
@@ -764,6 +779,39 @@
 	Volume = {83},
 	Year = {2017},
 	Bdsk-Url-1 = {https://doi.org/10.1016/j.ijar.2016.10.006}}
+
+@book{antonucci2017b,
+editor    = {Antonucci, Alessandro and Cholvy, Laurence and Papini, Odile},
+title     = {Symbolic and Quantitative Approaches to Reasoning with Uncertainty - 14th European Conference, {ECSQARU} 2017, Lugano, Switzerland, July
+               10-14, 2017, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10369},
+  publisher = {Springer},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/978-3-319-61581-3},
+  doi       = {10.1007/978-3-319-61581-3}}
+
+
+
+
+@book{antonucci2017b,
+editor    = {Antonucci, Alessandro and Cholvy, Laurence and Papini, Odile},
+title = {Special Issue on the Fourteenth European Conference on Symbolic and Quantitative Approaches to Reasoning with Uncertainty (ECSQARU 2017)},
+publisher = {Elsevier},
+year = {2019},
+url = {https://www.sciencedirect.com/journal/international-journal-of-approximate-reasoning/special-issue/10ZV3BL0H39},
+series =    {International Journal of Approximate Reasoning}}
+
+
+@book{antonucci2017c,
+editor    = {Antonucci, Alessandro and Corani, Giorgio and Couso, In{\'{e}}s and Destercke, S{\'{e}}bastien},
+title     = {Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications, Lugano, Switzerland, 10-14 July 2017},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {62},
+  publisher = {{PMLR}},
+  year      = {2017},
+  url       = {http://proceedings.mlr.press/v62/},
+}
 
 
 @article{antonucci2018a,
@@ -789,7 +837,7 @@ Year = {2018}}
   bdsk-url-1 = {https://doi.org/10.1007/978-3-030-00461-3_3},
   doi        = {https://doi.org/10.1007/978-3-030-00461-3_3},
   eventdate  = {Oct 3-5, 2018},
-  venue      = {Milan, Italy},
+  address = {Milan, Italy},
 }
 
 @InProceedings{antonucci2018c,
@@ -803,8 +851,26 @@ Year = {2018}}
   bdsk-url-1 = {http://ceur-ws.org/Vol-2219/paper1.pdf},
   eventdate  = {Sep 1, 2018},
   url        = {http://ceur-ws.org/Vol-2219/paper1.pdf},
-  venue      = {Ferrara, Italy},
+  address = {Ferrara, Italy},
 }
+
+
+@book{antonucci2018d,
+title= {Special Issue on the Eighth Edition of the International Conference on Probabilistic Graphical Models (PGM 2016)},
+editor =    {Antonucci, Alessandro and Corani, Giorgio and de Campos, Cassio Polpo},
+publisher = {Elsevier},
+year = {2018},
+url = {https://www.sciencedirect.com/journal/international-journal-of-approximate-reasoning/special-issue/10F9CF75B8K},
+series =    {International Journal of Approximate Reasoning}}
+
+
+@book{antonucci2018e,
+title= {Special Issue on the Tenth International Symposium on Imprecise Probability: Theories and Applications (ISIPTA ’17)},
+editor    = {Antonucci, Alessandro and Corani, Giorgio and Couso, In{\'{e}}s and Destercke, S{\'{e}}bastien},
+publisher = {Elsevier},
+year = {2020},
+url = {https://www.sciencedirect.com/journal/international-journal-of-approximate-reasoning/special-issue/105SKX9CD05},
+series =    {International Journal of Approximate Reasoning}}
 
 @InProceedings{antonucci2019a,
   author        = {Alessandro Antonucci},
@@ -850,7 +916,40 @@ Year = {2018}}
   pages     = {181-184},
   publisher = {AAAI Press},
   abstract  = {We present a heuristic strategy for marginal MAP (MMAP) queries in graphical models. The algorithm is based on a reduction of the task to a polynomial number of marginal inference computations. Given an input evidence, the marginals mass functions of the variables to be explained are computed. Marginal information gain is used to decide the variables to be explained first, and their most probable marginal states are consequently moved to the evidence. The sequential iteration of this procedure leads to a MMAP explanation and the minimum information gain obtained during the process can be regarded as a confidence measure for the explanation. Preliminary experiments show that the proposed confidence measure is properly detecting instances for which the algorithm is accurate and, for sufficiently high confidence levels, the algorithm gives the exact solution or an approximation whose Hamming distance from the exact one is small.},
-  eventdate = {May 17-20, 2020},
+  eventdate = {May 17-20, 2020}}
+
+@InProceedings{antonucci2021a,
+  author    = {Antonucci, Alessandro and Mangili, Francesca and Bonesana, Claudio and Adorni, Giorgia},
+  booktitle = {Symbolic and Quantitative Approaches to Reasoning With Uncertainty},
+  title     = {A New score for Adaptive Tests in {B}ayesian and Credal Networks},
+  year      = {2021},
+  address   = {Cham},
+  editor    = {Vejnarov\'a, J. and Wilson, N.},
+  pages     = {399--412},
+  publisher = {Springer International Publishing},
+  abstract  = {A test is adaptive when the sequence and number of ques- tions is dynamically tuned on the basis of the estimated skills of the taker. Graphical models, such as Bayesian networks, are used for adaptive tests as they allow to model the uncertainty about the questions and the skills in an explainable fashion, especially when coping with multiple skills. A better elicitation of the uncertainty in the question/skills relations can be achieved by interval probabilities. This turns the model into a credal net- work, thus increasing the inferential complexity of the queries required to select questions. This is especially the case for the information-theoretic quantities used as scores to drive the adaptive mechanism. We present an alternative family of scores, based on the mode of the posterior proba- bilities, and hence easier to explain. This makes considerably simpler the evaluation in the credal case, without significantly affecting the quality of the adaptive process. Numerical tests on synthetic and real-world data are used to support this claim.},
+  doi       = {https://doi.org/10.1007/978-3-030-86772-0_29},
+}
+
+@InProceedings{antonucci2021b,
+  author    = {Antonucci, Alessandro and Facchini, Alessandro and Mattei, Lilith},
+  booktitle = {The Fourth Tractable Probabilistic Modelling Workshop (@ UAI 2021)},
+  title     = {Structural Learning of Probabilistic Sentential Decision Diagrams under Partial Closed-World Assumption},
+  year      = {2021},
+  address   = {Virtual Event},
+  abstract  = {Probabilistic sentential decision diagrams are a class of structured-decomposable probabilistic circuits especially designed to embed logical constraints. To adapt the classical LearnSPN scheme to learn the structure of these models, we propose a new scheme based on a partial closed-world assumption: data implicitly provide the logical base of the circuit. Sum nodes are thus learned by recursively clustering batches in the initial data base, while the partitioning of the variables obeys a given input vtree. Preliminary experiments show that the proposed approach might properly fit training data, and generalize well to test data, provided that these remain consistent with the underlying logical base, that is a relaxation of the training data base.},
+  eprint    = {https://arxiv.org/abs/2107.12130},
+  eventdate = {Jul 30, 2021},
+  url       = {https://sites.google.com/view/tpm2021},
+}
+
+@Book{antonucci2021e,
+  editor    = {Antonucci, Alessandro and Benferhat, Salem and Premaratne, Kamal},
+  publisher = {Springer},
+  title     = {Uncertain reasoning},
+  year      = {2021},
+  series    = {Annals of Mathematics and Artificial Intelligence},
+  url       = {https://link.springer.com/journal/10472/volumes-and-issues/89-10},
 }
 
 @inproceedings{benavoli2009a,
@@ -864,11 +963,11 @@ Year = {2018}}
 	an alternative explanation of Zadeh's paradox is provided.},
 	Address = {Durham, United Kingdom},
 	Author = {Benavoli, Alessio and Antonucci, Alessandro},
-	Booktitle = {ISIPTA '09: Proceedings of the Sixth International Symposium on Imprecise Probability: Theories and Applications},
-	Date-Modified = {2019-12-29 12:17:19 +0200},
-	Editor = {Augustin, T., Coolen, F., Moral, S., Troffaes, M.C.M.},
-	Eventdate = {Jul 14-18 2009},
-	venue = {Durham, United Kingdom},
+	Booktitle = {Proceedings of the Sixth International Symposium on Imprecise Probability: Theories and Applications (ISIPTA '09)},
+	Editor = {Augustin, Thomas and Coolen, Frank and Moral, Serafín and Troffaes, Matthias C.M.},
+	Eventdate = {Jul 14-18, 2009},
+	month = jul,
+	address = {Durham, United Kingdom},
 	Pages = {31--40},
 	Publisher = {SIPTA},
 	Title = {Aggregating Imprecise Probabilistic Knowledge},
@@ -893,19 +992,39 @@ Year = {2018}}
 Volume = {51},
 	Year = {2010}}
 
-@incollection{cabanas2015a,
+{antonucci2021e,
+author = {Termine A., Antonucci A., Primiero G., Facchini A.}
+year = {2021},
+title = "Logic and Model Checking by Imprecise Probabilistic Interpreted Systems". 
+editor = "Rosenfeld A., Talmon N.",
+volume = " (eds) Multi-Agent Systems. EUMAS 2021. Lecture Notes in Computer Science, vol 12802. Springer, Cham."
+doi = "https://doi.org/10.1007/978-3-030-82254-5_13"}
+
+@InProceedings{bonesana2021a,
+  author    = {Bonesana, Claudio and Mangili, Francesca and Antonucci, Alessandro},
+  booktitle = {AI4EDU: Artificial Intelligence For Education (@ IJCAI2021)},
+  title     = {ADAPQUEST: A Software for Web-Based Adaptive Questionnaires based on Bayesian Networks},
+  year      = {2021},
+  address   = {Virtual Event},
+  note      = {IJCAI2021 Workshop},
+  abstract  = {We introduce ADAPQUEST, a software tool writ- ten in Java for the development of adaptive ques- tionnaires based on Bayesian networks. Adaptiveness is intended here as the dynamical choice of the question sequence on the basis of an evolving model of the skill level of the test taker. Bayesian networks offer a flexible and highly interpretable framework to describe such testing process, especially when coping with multiple skills. ADAPQUEST embeds dedicated elicitation strategies to simplify the elicitation of the questionnaire parameters. An application of this tool for the diag- nosis of mental disorders is also discussed together with some implementation details.},
+  eventdate = {Aug 20, 2021},
+  url       = {http://ai4ed.cc/workshops/ijcai2021},
+}
+
+@inproceedings{cabanas2015a,
 	Abstract = {Influence diagrams are probabilistic graphical models used to represent and solve decision problems under uncertainty. Sharp numerical values are required to quantify probabilities and utilities. Yet, real models are based on data streams provided by partially reliable sensors or experts. We propose an interval-valued quantification of these parameters to gain realism in the modelling and to analyse the sensitivity of the inferences with respect to perturbations of the sharp values. An extension of the classical influence diagrams formalism to support interval-valued potentials is provided. Moreover, a variable elimination algorithm especially designed for these models is developed and evalu- ated in terms of complexity and empirical performances.},
 	Author = {Caba{\~n}as, Rafael and Antonucci, Alessandro and Cano, Andr{\'e}s and G{\'o}mez-Olmedo, Manuel},
 	editor = {Destercke, Sébastien and Denoeux, Thierry},
 	Booktitle = {ECSQARU 2013: Proceedings of the 13th European Conference on Symbolic and Quantitative Approaches to Reasoning {w}ith Uncertainty},
 	Date-Modified = {2019-12-29 12:52:55 +0200},
-	Eventdate = {Jul 15-17 2015},
+	Eventdate = {Jul 15-17, 2015},
 	series = {Lecture Notes in Artificial Intelligence},
 	volume = {9161},
 	pages = {541--551},
 	doi =  {https://doi.org/10.1007/978-3-319-20807-7_49},
 	Title = {Variable Elimination for Interval-valued Influence Diagrams},
-	Venue = {Compi{\`e}gne, France},
+	address = {Compi{\`e}gne, France},
 	Publisher = {Springer, Cham},
 	Year = {2015}}
 
@@ -936,6 +1055,22 @@ Volume = {51},
   url       = {https://pgm2020.cs.aau.dk},
 }
 
+@InProceedings{cabanas2021a,
+  author    = {Cabañas, Rafael and Antonucci, Alessandro},
+  booktitle = {International Symposium on Imprecise Probabilities: Theories and Applications ({ISIPTA}-2021)},
+  title     = {{CREPO}: An Open Repository to Benchmark Credal Network Algorithms},
+  year      = {2021},
+  address   = {Grenada (Spain)},
+  editor    = {De Bock, J. and Cano, A. and Miranda, E. and Moral, S.},
+  pages     = {352--356},
+  publisher = {JMLR.org},
+  volume    = {147},
+  abstract  = {Credal networks are a popular class of imprecise prob- abilistic graphical models obtained as a Bayesian net- work generalization based on, so-called credal, sets of probability mass functions. A Java library called CREMA has been recently released to model, process and query credal networks. Despite the NP-hardness of the (exact) task, a number of algorithms is available to approximate credal network inferences. In this paper we present CREPO, an open repository of synthetic credal networks, provided together with the exact re- sults of inference tasks on these models. A Python tool is also delivered to load these data and interact with CREMA, thus making extremely easy to evaluate and compare existing and novel inference algorithms. To demonstrate such benchmarking scheme, we propose an approximate heuristic to be used inside variable elimination schemes to keep a bound on the maximum number of vertices generated during the combination step. A CREPO-based validation against approximate procedures based on linearization and exact techniques performed in CREMA is finally discussed.},
+  eprint    = {http://proceedings.mlr.press/v147/cabanas21a/cabanas21a.pdf},
+  eventdate = {Jul 6-9, 2021},
+  url       = {https://github.com/idsia/crepo},
+}
+
 @inproceedings{corani2012a,
 	Abstract = {We propose the COMP-AODE classifier, which adopts the compression-based
 	approach to average the posterior probabilities computed by different
@@ -951,12 +1086,12 @@ Volume = {51},
 	Booktitle = {Proceedings 20th European Conference on Artificial Intelligence (ECAI 2012)},
 	Date-Modified = {2019-12-29 12:17:43 +0200},
 	Editor = {De Raedt, L. and Bessiere, C. and Dubois, D. and Doherty, P. and Frasconi, P. and Heintz, F. and Lucas, P.J.F.},
-	Eventdate = {Aug 27-31 2012},
+	Eventdate = {Aug 27-31, 2012},
 	Pages = {264--269},
 	Publisher = {IOS Press},
 	Series = {Frontiers in Artificial Intelligence and Applications},
 	Title = {Compression-based {AODE} Classifiers},
-	Venue = {Montpellier, France},
+	address = {Montpellier, France},
 	Volume = {242},
 	Year = {2012}}
 
@@ -966,12 +1101,12 @@ Volume = {51},
 	Booktitle = {PGM '14: Proceedings of the Seventh European Workshop on Probabilistic Graphical Models},
 	Date-Modified = {2019-12-29 12:54:32 +0200},
 	Editor = {van der Gaag, Linda C. and Feelders, Ad},
-	Eventdate = {Sep 17-19 2014},
+	Eventdate = {Sep 17-19, 2014},
 	Pages = {145--159},
 	Publisher = {Springer},
 	Series = {Lecture Notes in Artificial Intelligence},
 	Title = {Trading Off Speed and Accuracy in Multilabel Classification},
-	Venue = {Utrecht, The Netherlands},
+	address = {Utrecht, The Netherlands},
 	Year = {2014}}
 
 @inproceedings{debock2014a,
@@ -979,9 +1114,20 @@ Volume = {51},
 	Author = {De Bock, Jasper and de Campos, Cassio Polpo and Antonucci, Alessandro},
 	Booktitle = {Advances in Neural Information Processing Systems 27 (NIPS 2014)},
 	Date-Modified = {2019-12-29 12:13:14 +0200},
-	Eventdate = {Dec 8-13 2014},
+	Eventdate = {Dec 8-13, 2014},
+  	editor    = {Ghahramani, Zoubin and Welling, Max and Cortes, Corinna and Lawrence, Neil D. and Weinberger, Kilian Q.},
+	eventdate = {Dec 8-13, 2014},
+	address = {Montreal, Quebec, Canada},
+  	year      = {2014},
+  url       = {http://papers.nips.cc/book/advances-in-neural-information-processing-systems-27-2014},
+  timestamp = {Fri, 06 Mar 2020 16:57:46 +0100},
+  biburl    = {https://dblp.org/rec/conf/nips/2014.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
 	Title = {Global Sensitivity Analysis for {MAP} Inference in Graphical Models},
-	Venue = {Montr{\'e}al, Canada},
+	address = {Montr{\'e}al, Canada},
 	Year = {2014}}
 
 @article{decampos2015a,
@@ -1012,8 +1158,8 @@ Volume = {51},
 	Author = {de Cooman, Gert and Hermans, Filip and Antonucci, Alessandro and Zaffalon, Marco},
 	Booktitle = {ISIPTA '09: Proceedings of the Sixth International Symposium on Imprecise Probability: Theories and Applications},
 	Date-Modified = {2019-12-29 12:12:25 +0200},
-	Editor = {Augustin, T., Coolen, F., Moral, S., Troffaes, M.C.M.},
-	Eventdate = {Jul 14-18 2009},
+	Editor = {Augustin, Thomas, Coolen, Frank, Moral, Serafín, Troffaes, Matthias C.M.},
+	Eventdate = {Jul 14-18, 2009},
 	Pages = {149--158},
 	Publisher = {SIPTA},
 	Title = {Epistemic Irrelevance in Credal Networks: The Case of Imprecise {M}arkov Trees},
@@ -1045,29 +1191,17 @@ Volume = {51},
 	Volume = {51},
 	Year = {2010}}
 @inproceedings{geh2020a,
-
 author = {Geh, Renato and Mauá, Denis Deratani and Antonucci, Alessandro},
-
 title = {Learning Probabilistic Sentential Decision Diagrams by Sampling},
-
 booktitle = {Proceedings of the Eight Symposium on Knowledge Discovery, Mining and Learning (KMILE)},
-
 location = {Online Event},
-
 month = {october},
-
 year = {2020},
-
 pages = {129--136},
-
 publisher = {SBC},
-
 eventdate = {Oct 20, 2020},
-
 address = {Porto Alegre, RS, Brasil},
-
 doi = {10.5753/kdmile.2020.11968},
-
 url = {https://sol.sbc.org.br/index.php/kdmile/article/view/11968},
 
 abstract = {Probabilistic circuits are deep probabilistic models with neural-network-like semantics capable of accurately and efficiently answering probabilistic queries without sacrificing expressiveness. Probabilistic Sentential Decision Diagrams (PSDDs) are a subclass of probabilistic circuits able to embed logical constraints to the circuit’s structure. In doing so, they obtain extra expressiveness with empirical optimal performance. Despite achieving competitive performance compared to other state-of-the-art competitors, there have been very few attempts at learning PSDDs from a combination of both data and knowledge in the form of logical formulae. Our work investigates sampling random PSDDs consistent with domain knowledge and evaluating against state-of-the-art probabilistic models. We propose a method of sampling that retains important structural constraints on the circuit’s graph that guarantee query tractability. Finally, we show that these samples are able to achieve competitive performance even on larger domains.}}
@@ -1092,7 +1226,7 @@ abstract = {Probabilistic circuits are deep probabilistic models with neural-net
 	Author = {K, Vani and Antonucci, Alessandro},
 	Booktitle = {Proceedings of Text2Story - Second Workshop on Narrative Extraction From Texts co-located with 41th European Conference on Information Retrieval (ECIR 2019)},
 	Date-Modified = {2019-12-29 12:17:55 +0200},
-	Eventdate = {Apr 14 2019},
+	Eventdate = {Apr 14, 2019},
 	editor = {Alípio, Mário Jorge and Ricardo, Campos and Adam, Jatowt and Sumit, Bhatia},
 	Pages = {29--37},
 	Title = {NOVEL2GRAPH: Visual Summaries of Narrative Text Enhanced by Machine Learning},
@@ -1128,6 +1262,19 @@ abstract = {Probabilistic circuits are deep probabilistic models with neural-net
   abstract  = {Lexical semantic change detection (also known as semantic shift tracing) is a task of identifying words that have changed their meaning over time. Unsupervised semantic shift tracing, focal point of SemEval2020, is particularly challenging. Given the unsupervised setup, in this work, we propose to identify clusters among different occurrences of each target word, considering these as representatives of different word meanings. As such, disagreements in obtained clusters naturally allow to quantify the level of semantic shift per each target word in four target languages. To leverage this idea, clustering is performed on contextualized (BERT-based) embeddings of word occurrences. The obtained results show that our approach performs well both measured separately (per language) and overall, where we surpass all provided SemEval baselines.},
 }
 
+@InProceedings{llerena2021a,
+  author    = {Llerena, Julissa V. and Mau\'a, Denis. D. and Antonucci, Alessandro},
+  booktitle = {Symbolic and Quantitative Approaches to Reasoning With Uncertainty},
+  title     = {Cautious Classification with Data Missing not at Random using Generative Random Forests},
+  year      = {2021},
+  address   = {Cham},
+  editor    = {Vejnarov\'a, J. and Wilson, N.},
+  pages     = {284--298},
+  publisher = {Springer International Publishing},
+  abstract  = {Missing data present a challenge for most machine learning approaches. When a generative probabilistic model of the data is available, an effective approach is to marginalize missing values out. Probabilistic circuits are expressive generative models that allow for efficient exact inference. However, data is often missing not at random, and marginalization can lead to overconfident and wrong conclusions. In this work, we develop an efficient algorithm for assessing the robustness of classifications made by probabilistic circuits to imputations of the non- ignorable portion of missing data at prediction time. We show that our algorithm is exact when the model satisfies certain constraints, which is the case for the recent proposed Generative Random Forests, that equip Random Forest Classifiers with a full probabilistic model of the data. We also show how to extend our approach to handle non-ignorable missing data at training time.},
+  doi       = {10.1007/978-3-030-86772-0_21},
+}
+
 @inproceedings{mangili2016a,
 	Abstract = {We present a general procedure for computerized adaptive testing based on probabilistic graphical models, and show on a real-world benchmark how this procedure can increase the internal consistency of the test and reduce the number of questions without affecting accuracy.},
 	Author = {Mangili, Francesca and Bonesana, Claudio and Antonucci, Alessandro and Zaffalon, Marco and Rubegni, Elisa and Addimando, Loredana},
@@ -1153,7 +1300,6 @@ abstract = {We present a Bayesian approach to conversational recom- mender syste
 Booktitle = {Proceedings of the Fourteenth International Conference on Scalable Uncertainty Management (SUM 2020)},
 Doi = {https://doi.org/10.1007/978-3-030-58449-8_14},
 Editor = {Davis, Jesse and Tabia, Karim},
-Eventdate = {Oct 3-5 2018},
 isbn={978-3-030-58449-8},
 Pages = {200-213},
 location = {Online Event},
@@ -1238,8 +1384,9 @@ volume = {125}
   pages         = {391--400},
   abstract      = {Credal networks are graph-based statistical models whose parameters take values in a set, instead of being sharply specified as in traditional statistical models (e.g., Bayesian networks). The computational complexity of inferences on such models depends on the irrelevance/independence concept adopted. In this paper, we study inferential complexity under the concepts of epistemic irrelevance and strong independence. We show that inferences under strong independence are NP-hard even in trees with ternary variables. We prove that under epistemic irrelevance the polynomial time complexity of inferences in credal trees is not likely to extend to more general models (e.g. singly connected networks). These results clearly distinguish networks that admit efficient inferences and those where inferences are most likely hard, and settle several open questions regarding computational complexity.},
   date-modified = {2019-12-29 21:21:06 +0200},
-  eventdate     = {Jul 11-15 2013},
-  venue         = {Bellevue, Washington},
+  eventdate     = {Jul 11-15, 2013},
+ publisher = {AUAI Press},
+  address = {Bellevue, Washington},
 }
 
 @inproceedings{maua2014a,
@@ -1247,9 +1394,9 @@ volume = {125}
 	Author = {Mau{\'a}, Denis Deratani and de Campos, Cassio Polpo and Antonucci, Alessandro},
 	Booktitle = {BRACIS 2014: Proceedings of the Brazilian Conference on Intelligent Systems},
 	Date-Modified = {2019-12-29 21:18:38 +0200},
-	Eventdate = {Oct 18-23 2014},
+	Eventdate = {Oct 18-23, 2014},
 	Title = {Hidden {M}arkov Models with Imprecisely Specified Parameters},
-	Venue = {S{\~a}o Carlos, S{\~a}o Paulo, Brazil},
+	address = {S{\~a}o Carlos, S{\~a}o Paulo, Brazil},
 	Year = {2014}}
 
 @article{maua2014b,
@@ -1291,6 +1438,15 @@ volume = {125}
   url       = {https://pgm2020.cs.aau.dk},
 }
 
+@InProceedings{mellace2021a,
+  author    = {Mellace, Simone and Kanjirangat, Vani and Antonucci, Alessandro},
+  booktitle = {{AI4Narratives} Workshop at 29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence ({IJCAI}-{PRICAI} 20)},
+  title     = {Relation Clustering in Narrative Knowledge Graphs},
+  year      = {2021},
+  abstract  = {When coping with literary texts such as novels or short stories, the extraction of structured informa- tion in the form of a knowledge graph might be hindered by the huge number of possible relations between the entities corresponding to the characters in the novel and the consequent hurdles in gathering supervised information about them. Such issue is addressed here as an unsupervised task empow- ered by transformers: relational sentences in the original text are embedded (with SBERT) and clustered in order to merge together semantically simi- lar relations. All the sentences in the same cluster are finally summarized (with BART) and a descriptive label extracted from the summary. Preliminary tests show that such clustering might successfully detect similar relations, and provide a valuable pre- processing for semi-supervised approaches.},
+  url       = {http://ceur-ws.org/Vol-2794/paper5.pdf},
+}
+
 @inproceedings{piatti2008a,
 	Abstract = {Bayesian networks are probabilistic graphical models widely employed in AI for the implementation of knowledge-based systems. Standard inference algorithms can update the beliefs about a variable of interest in the network after the observation of some other variables. This is usually achieved under the assumption that the observations could reveal the actual states of the variables in a fully reliable way.  We propose a procedure for a more general modeling of the observations, which allows for updating beliefs in different situations, including various cases of unreliable, incomplete, uncertain and also missing observations. This is achieved by augmenting the original Bayesian network with a number of auxiliary variables corresponding to the observations. For a flexible modeling of the observational process, the quantification of the relations between these auxiliary variables and those of the original Bayesian network is done by credal sets, i.e., convex sets of probability mass functions. Without any lack of generality, we show how this can be done by simply estimating the bounds for the likelihoods of the observations. Overall, the Bayesian network is transformed into a credal network, for which a standard updating problem has to be solved. Finally, a number of transformations that might simplify the updating of the resulting credal network is provided.},
 	Author = {Antonucci, Alessandro and Piatti, Alberto},
@@ -1302,7 +1458,7 @@ volume = {125}
 	Publisher = {Springer},
 	Series = {Lecture Notes in Computer Science},
 	Title = {Modeling Unreliable Observations in Bayesian Networks by Credal Networks},
-	Venue = {Washington, D.C., USA},
+	address = {Washington, D.C., USA},
 	Volume = {5785},
 	Year = {2009}}
 
@@ -1352,9 +1508,9 @@ volume = {125}
 	Eventdate = {Jul 2008},
 	Pages = {380--387},
 	Publisher = {iEMSs},
-	Venue = {Barcelona, Catalonia}}
+	address = {Barcelona, Catalonia}}
 
-@incollection{soullard2016a,
+@inproceedings{soullard2016a,
 	Abstract = {Hidden Markov models are popular tools for gesture recognition. Once the generative processes of gestures have been identified, an observation sequence is usually classified as the gesture having the highest likelihood, thus ignoring possible prior information. In this paper, we consider two potential improvements of such methods: the inclusion of prior information, and the possibility of considering convex sets of probabilities (in the likelihoods and the prior) to infer imprecise, but more reliable, predictions when information is insufficient. We apply the proposed approach to technical gestures, typically characterized by severe class imbalance. By modelling such imbalances as a prior information, we achieve more accurate results, while the imprecise quantification is shown to produce more reliable estimates.},
 	Author = {Soullard, Yann and Antonucci, Alessandro and Destercke, Sébastien},
 	Booktitle = {Soft Methods for Data Science (SMPS 2016: Proceedings of the Eight International Conference on {S}oft {M}ethods in {P}robability and {S}tatistics)},
@@ -1363,13 +1519,38 @@ volume = {125}
 	Editor = {Ferraro, Maria Brigida and Giordani, Paolo and Vantaggi, Barbara and Gagolewski, Marek and Gil, María Ángeles and Grzegorzewski, Przemysław and Hryniewicz, Olgierd},
 	Pages = {455--462},
 	Publisher = {Springer},
-	venue = {Rome, Italy},
-	eventdate = {Sep 12-14 2016},
+	address = {Rome, Italy},
+	eventdate = {Sep 12-14, 2016},
 	Series = {Advances in Intelligent Systems and Computing},
 	Title = {Technical Gestures Recognition by Set-valued Hidden {M}arkov Models with Prior Knowledge},
 	Volume = {456},
 	Year = {2016},
 	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-319-42972-4_56}}
+
+@InProceedings{termine2021a,
+  author    = {Termine, Alberto and Antonucci, Alessandro and Facchini, Alessandro and Primiero, Giuseppe},
+  booktitle = {Proceedings of the Twelfth International Symposium on Imprecise Probabilities: Theories and Applications (ISIPTA '21)},
+  title     = {Robust Model Checking with Imprecise Markov Reward Models},
+  year      = {2021},
+  address   = {Granada},
+  pages     = {299--309},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {147},
+  abstract  = {In recent years probabilistic model checking has become an important area of research because of the diffusion of computational systems of stochastic nature. Despite its great success, standard probabilistic model checking suffers the limitation of requiring a sharp specification of the probabilities governing the model behaviour. The theory of imprecise probabilities offers a natural approach to overcome such limitation by a sensitivity analysis with respect to the values of these parameters. However, only extensions based on discrete-time imprecise Markov chains have been considered so far for such a robust approach to model checking. We present a further extension based on imprecise Markov reward models. In particular, we derive efficient algorithms to compute lower and upper bounds of the expected cumulative reward and probabilistic bounded rewards based on existing results for imprecise Markov chains. These ideas are tested on a real case study involving the spend-down costs of geriatric medicine departments.},
+  eventdate = {Jul 6-9, 2021},
+}
+
+@InProceedings{termine2021b,
+  author    = {Termine, Alberto and Antonucci, Alessandro and Primiero, Giuseppe and Facchini, Alessandro},
+  booktitle = {Multi-Agent Systems. {EUMAS} 2021. Lecture Notes in Computer Science},
+  title     = {Logic and Model Checking by imprecise Probabilistic Interpreted Systems},
+  year      = {2021},
+  address   = {Cham},
+  editor    = {Rosenfeld, A. and Talmon, N.},
+  abstract  = {Stochastic multi-agent systems raise the necessity to extend probabilistic model checking to the epistemic domain. Results in this direction have been achieved by epistemic extensions of Probabilistic Computation Tree Logic and related Probabilistic Interpreted Systems. The latter, however, suffer of an important limitation: they require the probabilities governing the system’s behaviour to be fully specified. A promising way to overcome this limitation is represented by imprecise probabilities. In this paper we introduce imprecise probabilistic interpreted systems and present a related logical language and model-checking procedures based on recent advances in the study of imprecise Markov processes.},
+  doi       = {https://doi.org/10.1007/978-3-030-82254-5_13},
+}
 
 @InProceedings{volpetti2020a,
   author    = {Claudia Volpetti, Claudia and Kanjirangat, Vani and Antonucci, Alessandro},
@@ -1404,6 +1585,19 @@ volume = {125}
   url       = {https://pgm2020.cs.aau.dk},
 }
 
+@InProceedings{zaffalon2021a,
+  author    = {Zaffalon, Marco and Antonucci, Alessandro and Cabañas, Rafael},
+  booktitle = {{WHY}-21 Workshop (@ NeurIPS 2021)},
+  title     = {Causal Expectation-Maximisation},
+  year      = {2021},
+  address   = {Virtual Event},
+  month     = dec,
+  abstract  = {Structural causal models are the basic modelling unit in Pearl’s causal theory; in principle they allow us to solve counterfactuals, which are at the top rung of the ladder of causation. But they often contain latent variables that limit their application to special settings. This appears to be a consequence of the fact, proven in this paper, that causal inference is NP-hard even in models characterised by polytree-shaped graphs. To deal with such a hardness, we introduce the causal EM algorithm. Its primary aim is to reconstruct the uncertainty about the latent variables from data about categorical manifest variables. Counterfactual inference is then addressed via standard algorithms for Bayesian networks. The result is a general method to approximately compute counterfactuals, be they identifiable or not (in which case we deliver bounds). We show empirically, as well as by deriving credible intervals, that the approximation we provide becomes accurate in a fair number of EM runs. These results lead us finally to argue that there appears to be an unnoticed limitation to the trending idea that counterfactual bounds can often be computed without knowledge of the structural equations.},
+  eprint    = {https://arxiv.org/abs/2011.02912},
+  eventdate = {Dec 13, 2021},
+  url       = {https://why21.causalai.net},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
-@Comment{jabref-meta: saveOrderConfig:original;bibtexkey;false;author;false;title;true;}
+@Comment{jabref-meta: saveOrderConfig:original;citationkey;false;author;false;title;true;}

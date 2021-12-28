@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alessandro Antonucci</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
-<link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/style.css">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for Alessandro Antonucci" href="/feed.xml" />
 </head>
 <body>
@@ -29,303 +29,449 @@
 <img src="./antonucci.png">
 <p>Senior Lecturer-Researcher at <a href="http://www.idsia.ch">IDSIA</a> (
 <a href="http://www.supsi.ch/dti">DTI</a> - <a href="http://www.supsi.ch">SUPSI</a> / <a href="http://www.usi.ch">USI</a> )</br>
-Imprecise Probability <a href="http://ipg.idsia.ch">Group</a> Member</br/><a href="https://www.journals.elsevier.com/international-journal-of-approximate-reasoning">IJAR</a> Area Editor and <a href="http://www.sipta.org">SIPTA</a> Treasurer</p>
+Imprecise Probability <a href="http://ipg.idsia.ch">Group</a> Member</br/><a href="https://www.journals.elsevier.com/international-journal-of-approximate-reasoning">IJAR</a> Area Editor</p>
 <p>alessandro@idsia.ch ( mail )</br>
-<a href="https://www.google.it/maps/place/IDSIA+-+Istituto+Dalle+Molle+di+studi+sull'Intelligenza+Artificiale/@46.0261922,8.9162931,17z/data=!3m1!4b1!4m5!3m4!1s0x4784329807fc5499:0x1cfc497f0b9b4342!8m2!3d46.0261922!4d8.9184818">Idsia</a> - Room 202 - Galleria 1, Via Cantonale</br>CH-6928 Manno - Switzerland ( office )</br> 
-alessandro.antonucci@supsi.ch ( teams )</br>
+<a href="https://www.google.it/maps/place/IDSIA+-+Istituto+Dalle+Molle+di+studi+sull'Intelligenza+Artificiale/@46.0261922,8.9162931,17z/data=!3m1!4b1!4m5!3m4!1s0x4784329807fc5499:0x1cfc497f0b9b4342!8m2!3d46.0261922!4d8.9184818">Idsia</a> - Polo universitario Lugano - Via la Santa 1</br>CH-6962 Lugano-Viganello - Switzerland ( office )</br> 
+alessandro.antonucci@supsi.ch ( teams + mail )</br>
 alessandro.antonucci ( skype )</br>
 +41 58 6666579 ( tel )</p>
 
-<p><small>Last update: October 29, 2020</small></p>
+<p><small>Last update: December 27, 2021</small></p>
 
-<p>My research is mostly focused in the area of probabilistic (and imprecise-probabilistic) graphical models and their approcation to approximate reasoning and machine learning. This involves many different areas such as <a href="./publications/index.html#zaffalon2020a">causality</a>, models mixing <a href="./publications/index.html#mattei2020a">logics and probabilities</a>, but also applications to <a href="./publications/index.html#kanjirangat2020a">natural language processing</a> and <a href="./publications/index.html#mangili2020a">recommender systems</a>.</p>
+<p>My research is mostly focused in the area of probabilistic (and imprecise-probabilistic) graphical models and their applications to approximate reasoning and machine learning. This involves many different sub-areas such as <a href="./publications/index.html#zaffalon2020a">causality</a>, tractable models mixing <a href="./publications/index.html#mattei2020a">logics and probabilities</a>, but also applications to <a href="./publications/index.html#kanjirangat2020a">natural language processing</a> and <a href="./publications/index.html#mangili2020a">recommender systems</a>.</p>
 <p>My most recent publications are here below. You can find the complete list <a href="./publications/">here</a></p>
 
 <br/>
 <ol class="bibliography" reversed="reversed"><li><div class="bibliography">
 
-<a name="kanjirangat2020b"></a>
-<h4><a href="../papers/kanjirangat2020b.pdf">SST-BERT at SemEval-2020 Task 1: Semantic Shift Tracing by Clustering in BERT-based Embedding Spaces</a></h4>
-<h5>Kanjirangat, Vani and Mitrovic, Sandra and Antonucci, Alessandro and Rinaldi, Fabio (2020).</h5>
+<a name="zaffalon2021a"></a>
+<h4><a href="../papers/zaffalon2021a.pdf">Causal Expectation-Maximisation</a></h4>
+<h5>Zaffalon, Marco and Antonucci, Alessandro and Cabañas, Rafael (2021).</h5>
 <p class="myitem">
-In <i>Proceedings of the 14th International Workshop on Semantic Evaluation (SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection)</i>.&nbsp;Barcelona, Spain,&nbsp;Dec 12-13, 2020.&nbsp;Association for Computational Linguistics.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{kanjirangat2020b,
-  author = {Kanjirangat, Vani and Mitrovic, Sandra and Antonucci, Alessandro and Rinaldi, Fabio},
-  booktitle = {Proceedings of the 14th International Workshop on Semantic Evaluation (SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection)},
-  title = {SST-BERT at SemEval-2020 Task 1: Semantic Shift Tracing by Clustering in BERT-based Embedding Spaces},
-  year = {2020},
-  address = {Barcelona, Spain},
-  eventdate = {Dec 12-13, 2020},
-  month = dec,
-  publisher = {Association for Computational Linguistics}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">Lexical semantic change detection (also known as semantic shift tracing) is a task of identifying words that have changed their meaning over time. Unsupervised semantic shift tracing, focal point of SemEval2020, is particularly challenging. Given the unsupervised setup, in this work, we propose to identify clusters among different occurrences of each target word, considering these as representatives of different word meanings. As such, disagreements in obtained clusters naturally allow to quantify the level of semantic shift per each target word in four target languages. To leverage this idea, clustering is performed on contextualized (BERT-based) embeddings of word occurrences. The obtained results show that our approach performs well both measured separately (per language) and overall, where we surpass all provided SemEval baselines.</p></details>&nbsp;<a class="mytags" href="../papers/kanjirangat2020b.pdf">PDF</a>&nbsp;</span></p>
 
-</div><hr>
-</li>
-<li><div class="bibliography">
+In 
+<i>WHY-21 Workshop (@ NeurIPS 2021)</i>.&nbsp;Virtual Event
 
-<a name="mattei2020a"></a>
-<h4><a href="../papers/mattei2020a.pdf">Tractable Inference in Credal Sentential Decision Diagrams</a></h4>
-<h5>Lilith Mattei, Lilith and Antonucci, Alessandro and Mauá, Denis Deratani and Facchini, Alessandro and Llerena, Julissa Villanueva (2020).</h5>
-<p class="myitem">
-<i>International Journal of Approximate Reasoning</i> <b>125</b>,&nbsp;26–48.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@article{mattei2020a,
-  title = {Tractable Inference in Credal Sentential Decision Diagrams},
-  author = {Lilith Mattei, Lilith and Antonucci, Alessandro and Mauá, Denis Deratani and Facchini, Alessandro and Llerena, Julissa Villanueva},
-  year = {2020},
-  month = oct,
-  doi = {10.1016/j.ijar.2020.06.005},
-  journal = {International Journal of Approximate Reasoning},
-  pages = {26--48},
-  volume = {125}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">Probabilistic sentential decision diagrams are logic circuits where the inputs of disjunctive gates are annotated by probability values. They allow for a compact representation of joint probability mass functions defined over sets of Boolean variables, that are also consistent with the logical constraints defined by the circuit. The probabilities in such a model are usually “learned” from a set of observations. This leads to overconfident and prior-dependent inferences when data are scarce, unreliable or conflicting. In this work, we develop the credal sentential decision diagrams, a generalisation of their probabilistic counterpart that allows for replacing the local probabilities with (so-called credal) sets of mass functions. These models induce a joint credal set over the set of Boolean variables, that sharply assigns probability zero to states inconsistent with the logical constraints. Three inference algorithms are derived for these models. These allow to compute: (i) the lower and upper probabilities of an observation for an arbitrary number of variables; (ii) the lower and upper conditional probabilities for the state of a single variable given an observation; (iii) whether or not all the probabilistic sentential decision diagrams compatible with the credal specification have the same most probable explanation of a given set of variables given an observation of the other variables. These inferences are tractable, as all the three algorithms, based on bottom-up traversal with local linear programming tasks on the disjunctive gates, can be solved in polynomial time with respect to the circuit size. The first algorithm is always exact, while the remaining two might induce a conservative (outer) approximation in the case of multiply connected circuits. A semantics for this approximation together with an auxiliary algorithm able to decide whether or not the result is exact is also provided together with a brute-force characterization of the exact inference in these cases. For a first empirical validation, we consider a simple application based on noisy seven-segment display images. The credal models are observed to properly distinguish between easy and hard-to-detect instances and outperform other generative models not able to cope with logical constraints.</p></details>&nbsp;<a class="mytags" href="../papers/mattei2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="http://doi.org/10.1016/j.ijar.2020.06.005">DOI</a>&nbsp;</span></p>
+,&nbsp;Dec 13, 2021.&nbsp;
 
-</div><hr>
-</li>
-<li><div class="bibliography">
 
-<a name="geh2020a"></a>
-<h4><a href="../papers/geh2020a.pdf">Learning Probabilistic Sentential Decision Diagrams by Sampling</a></h4>
-<h5>Geh, Renato and Mauá, Denis Deratani and Antonucci, Alessandro (2020).</h5>
-<p class="myitem">
-In <i>Proceedings of the Eight Symposium on Knowledge Discovery, Mining and Learning (KMILE)</i>.&nbsp;Porto Alegre, RS, Brasil,&nbsp;Oct 20, 2020.&nbsp;&nbsp;Online Event.&nbsp;SBC,&nbsp;129–136.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{geh2020a,
-  author = {Geh, Renato and Mauá, Denis Deratani and Antonucci, Alessandro},
-  title = {Learning Probabilistic Sentential Decision Diagrams by Sampling},
-  booktitle = {Proceedings of the Eight Symposium on Knowledge Discovery, Mining and Learning (KMILE)},
-  location = {Online Event},
-  month = oct,
-  year = {2020},
-  pages = {129--136},
-  publisher = {SBC},
-  eventdate = {Oct 20, 2020},
-  address = {Porto Alegre, RS, Brasil},
-  doi = {10.5753/kdmile.2020.11968},
-  url = {https://sol.sbc.org.br/index.php/kdmile/article/view/11968}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">Probabilistic circuits are deep probabilistic models with neural-network-like semantics capable of accurately and efficiently answering probabilistic queries without sacrificing expressiveness. Probabilistic Sentential Decision Diagrams (PSDDs) are a subclass of probabilistic circuits able to embed logical constraints to the circuit’s structure. In doing so, they obtain extra expressiveness with empirical optimal performance. Despite achieving competitive performance compared to other state-of-the-art competitors, there have been very few attempts at learning PSDDs from a combination of both data and knowledge in the form of logical formulae. Our work investigates sampling random PSDDs consistent with domain knowledge and evaluating against state-of-the-art probabilistic models. We propose a method of sampling that retains important structural constraints on the circuit’s graph that guarantee query tractability. Finally, we show that these samples are able to achieve competitive performance even on larger domains.</p></details>&nbsp;<a class="mytags" href="../papers/geh2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="http://doi.org/10.5753/kdmile.2020.11968">DOI</a>&nbsp;<a class="mytags" href="https://sol.sbc.org.br/index.php/kdmile/article/view/11968">URL</a>&nbsp;</span></p>
 
-</div><hr>
-</li>
-<li><div class="bibliography">
 
-<a name="zaffalon2020a"></a>
-<h4><a href="../papers/zaffalon2020a.pdf">Structural Causal Models are (Solvable by) Credal Networks</a></h4>
-<h5>Zaffalon, Marco and Antonucci, Alessandro and Cabañas, Rafael (2020).</h5>
-<p class="myitem">
-In Jaeger, Manfred and Nielsen, Thomas Dyhre (Eds),&nbsp;<i>Proceedings of the 10th International Conference on Probabilistic Graphical Models (PGM 2020)</i>.&nbsp;Aalborg, Denmark,&nbsp;Sep 23-25, 2020.&nbsp;&nbsp;Online Event.&nbsp;Proceedings of Machine Learning Research,&nbsp;PMLR.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{zaffalon2020a,
+
+
+
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/zaffalon2021a.pdf">PDF</a>&nbsp;
+
+<a class="rc3" href="https://arxiv.org/abs/2011.02912">EPRINT</a>&nbsp;
+
+
+
+<a class="rc3" href="https://why21.causalai.net">URL</a>&nbsp;
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{zaffalon2021a,
   author = {Zaffalon, Marco and Antonucci, Alessandro and Cabañas, Rafael},
-  booktitle = {Proceedings of the 10th International Conference on Probabilistic Graphical Models ({PGM} 2020)},
-  title = {Structural Causal Models are (Solvable by) Credal Networks},
-  year = {2020},
-  address = {Aalborg, Denmark},
-  editor = {Jaeger, Manfred and Nielsen, Thomas Dyhre},
-  month = sep,
+  booktitle = {{WHY}-21 Workshop (@ NeurIPS 2021)},
+  title = {Causal Expectation-Maximisation},
+  year = {2021},
+  address = {Virtual Event},
+  month = dec,
+  eprint = {https://arxiv.org/abs/2011.02912},
+  eventdate = {Dec 13, 2021},
+  url = {https://why21.causalai.net}
+}
+</pre></details>&nbsp;
+
+<details class="rc3"><summary>ABS</summary>Structural causal models are the basic modelling unit in Pearl’s causal theory; in principle they allow us to solve counterfactuals, which are at the top rung of the ladder of causation. But they often contain latent variables that limit their application to special settings. This appears to be a consequence of the fact, proven in this paper, that causal inference is NP-hard even in models characterised by polytree-shaped graphs. To deal with such a hardness, we introduce the causal EM algorithm. Its primary aim is to reconstruct the uncertainty about the latent variables from data about categorical manifest variables. Counterfactual inference is then addressed via standard algorithms for Bayesian networks. The result is a general method to approximately compute counterfactuals, be they identifiable or not (in which case we deliver bounds). We show empirically, as well as by deriving credible intervals, that the approximation we provide becomes accurate in a fair number of EM runs. These results lead us finally to argue that there appears to be an unnoticed limitation to the trending idea that counterfactual bounds can often be computed without knowledge of the structural equations.</details>&nbsp;
+
+</p>
+</div><hr>
+</li>
+<li><div class="bibliography">
+
+<a name="antonucci2021b"></a>
+<h4><a href="../papers/antonucci2021b.pdf">Structural Learning of Probabilistic Sentential Decision Diagrams under Partial Closed-World Assumption</a></h4>
+<h5>Antonucci, Alessandro and Facchini, Alessandro and Mattei, Lilith (2021).</h5>
+<p class="myitem">
+
+In 
+<i>The Fourth Tractable Probabilistic Modelling Workshop (@ UAI 2021)</i>.&nbsp;Virtual Event
+
+,&nbsp;Jul 30, 2021.&nbsp;
+
+
+
+
+
+
+
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/antonucci2021b.pdf">PDF</a>&nbsp;
+
+<a class="rc3" href="https://arxiv.org/abs/2107.12130">EPRINT</a>&nbsp;
+
+
+
+<a class="rc3" href="https://sites.google.com/view/tpm2021">URL</a>&nbsp;
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{antonucci2021b,
+  author = {Antonucci, Alessandro and Facchini, Alessandro and Mattei, Lilith},
+  booktitle = {The Fourth Tractable Probabilistic Modelling Workshop (@ UAI 2021)},
+  title = {Structural Learning of Probabilistic Sentential Decision Diagrams under Partial Closed-World Assumption},
+  year = {2021},
+  address = {Virtual Event},
+  eprint = {https://arxiv.org/abs/2107.12130},
+  eventdate = {Jul 30, 2021},
+  url = {https://sites.google.com/view/tpm2021}
+}
+</pre></details>&nbsp;
+
+<details class="rc3"><summary>ABS</summary>Probabilistic sentential decision diagrams are a class of structured-decomposable probabilistic circuits especially designed to embed logical constraints. To adapt the classical LearnSPN scheme to learn the structure of these models, we propose a new scheme based on a partial closed-world assumption: data implicitly provide the logical base of the circuit. Sum nodes are thus learned by recursively clustering batches in the initial data base, while the partitioning of the variables obeys a given input vtree. Preliminary experiments show that the proposed approach might properly fit training data, and generalize well to test data, provided that these remain consistent with the underlying logical base, that is a relaxation of the training data base.</details>&nbsp;
+
+</p>
+</div><hr>
+</li>
+<li><div class="bibliography">
+
+<a name="bonesana2021a"></a>
+<h4><a href="../papers/bonesana2021a.pdf">ADAPQUEST: A Software for Web-Based Adaptive Questionnaires based on Bayesian Networks</a></h4>
+<h5>Bonesana, Claudio and Mangili, Francesca and Antonucci, Alessandro (2021).</h5>
+<p class="myitem">
+
+In 
+<i>AI4EDU: Artificial Intelligence For Education (@ IJCAI2021)</i>.&nbsp;Virtual Event
+
+,&nbsp;Aug 20, 2021.&nbsp;
+
+
+
+
+
+
+
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/bonesana2021a.pdf">PDF</a>&nbsp;
+
+
+
+<a class="rc3" href="http://ai4ed.cc/workshops/ijcai2021">URL</a>&nbsp;
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{bonesana2021a,
+  author = {Bonesana, Claudio and Mangili, Francesca and Antonucci, Alessandro},
+  booktitle = {AI4EDU: Artificial Intelligence For Education (@ IJCAI2021)},
+  title = {ADAPQUEST: A Software for Web-Based Adaptive Questionnaires based on Bayesian Networks},
+  year = {2021},
+  address = {Virtual Event},
+  note = {IJCAI2021 Workshop},
+  eventdate = {Aug 20, 2021},
+  url = {http://ai4ed.cc/workshops/ijcai2021}
+}
+</pre></details>&nbsp;
+
+<details class="rc3"><summary>ABS</summary>We introduce ADAPQUEST, a software tool writ- ten in Java for the development of adaptive ques- tionnaires based on Bayesian networks. Adaptiveness is intended here as the dynamical choice of the question sequence on the basis of an evolving model of the skill level of the test taker. Bayesian networks offer a flexible and highly interpretable framework to describe such testing process, especially when coping with multiple skills. ADAPQUEST embeds dedicated elicitation strategies to simplify the elicitation of the questionnaire parameters. An application of this tool for the diag- nosis of mental disorders is also discussed together with some implementation details.</details>&nbsp;
+
+</p>
+</div><hr>
+</li>
+<li><div class="bibliography">
+
+<a name="cabanas2021a"></a>
+<h4><a href="../papers/cabanas2021a.pdf">CREPO: An Open Repository to Benchmark Credal Network Algorithms</a></h4>
+<h5>Cabañas, Rafael and Antonucci, Alessandro (2021).</h5>
+<p class="myitem">
+
+In De Bock, J. and Cano, A. and Miranda, E. and Moral, S. (Eds),&nbsp;
+
+<i>International Symposium on Imprecise Probabilities: Theories and Applications (ISIPTA-2021)</i>.&nbsp;Grenada (Spain)
+
+,&nbsp;Jul 6-9, 2021.&nbsp;
+
+
+&nbsp;147
+,&nbsp;
+JMLR.org
+,&nbsp;352–356
+.&nbsp;
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/cabanas2021a.pdf">PDF</a>&nbsp;
+
+<a class="rc3" href="http://proceedings.mlr.press/v147/cabanas21a/cabanas21a.pdf">EPRINT</a>&nbsp;
+
+
+
+<a class="rc3" href="https://github.com/idsia/crepo">URL</a>&nbsp;
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{cabanas2021a,
+  author = {Cabañas, Rafael and Antonucci, Alessandro},
+  booktitle = {International Symposium on Imprecise Probabilities: Theories and Applications ({ISIPTA}-2021)},
+  title = {{CREPO}: An Open Repository to Benchmark Credal Network Algorithms},
+  year = {2021},
+  address = {Grenada (Spain)},
+  editor = {De Bock, J. and Cano, A. and Miranda, E. and Moral, S.},
+  pages = {352--356},
+  publisher = {JMLR.org},
+  volume = {147},
+  eprint = {http://proceedings.mlr.press/v147/cabanas21a/cabanas21a.pdf},
+  eventdate = {Jul 6-9, 2021},
+  url = {https://github.com/idsia/crepo}
+}
+</pre></details>&nbsp;
+
+<details class="rc3"><summary>ABS</summary>Credal networks are a popular class of imprecise prob- abilistic graphical models obtained as a Bayesian net- work generalization based on, so-called credal, sets of probability mass functions. A Java library called CREMA has been recently released to model, process and query credal networks. Despite the NP-hardness of the (exact) task, a number of algorithms is available to approximate credal network inferences. In this paper we present CREPO, an open repository of synthetic credal networks, provided together with the exact re- sults of inference tasks on these models. A Python tool is also delivered to load these data and interact with CREMA, thus making extremely easy to evaluate and compare existing and novel inference algorithms. To demonstrate such benchmarking scheme, we propose an approximate heuristic to be used inside variable elimination schemes to keep a bound on the maximum number of vertices generated during the combination step. A CREPO-based validation against approximate procedures based on linearization and exact techniques performed in CREMA is finally discussed.</details>&nbsp;
+
+</p>
+</div><hr>
+</li>
+<li><div class="bibliography">
+
+<a name="antonucci2021a"></a>
+<h4><a href="../papers/antonucci2021a.pdf">A New score for Adaptive Tests in Bayesian and Credal Networks</a></h4>
+<h5>Antonucci, Alessandro and Mangili, Francesca and Bonesana, Claudio and Adorni, Giorgia (2021).</h5>
+<p class="myitem">
+
+In Vejnarová, J. and Wilson, N. (Eds),&nbsp;
+
+<i>Symbolic and Quantitative Approaches to Reasoning With Uncertainty</i>.&nbsp;Cham
+
+.&nbsp;
+
+
+
+
+Springer International Publishing
+,&nbsp;399–412
+.&nbsp;
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/antonucci2021a.pdf">PDF</a>&nbsp;
+
+
+<a class="rc3" href="http://doi.org/https://doi.org/10.1007/978-3-030-86772-0_29">DOI</a>&nbsp;
+
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{antonucci2021a,
+  author = {Antonucci, Alessandro and Mangili, Francesca and Bonesana, Claudio and Adorni, Giorgia},
+  booktitle = {Symbolic and Quantitative Approaches to Reasoning With Uncertainty},
+  title = {A New score for Adaptive Tests in {B}ayesian and Credal Networks},
+  year = {2021},
+  address = {Cham},
+  editor = {Vejnarov\'a, J. and Wilson, N.},
+  pages = {399--412},
+  publisher = {Springer International Publishing},
+  doi = {https://doi.org/10.1007/978-3-030-86772-0_29}
+}
+</pre></details>&nbsp;
+
+<details class="rc3"><summary>ABS</summary>A test is adaptive when the sequence and number of ques- tions is dynamically tuned on the basis of the estimated skills of the taker. Graphical models, such as Bayesian networks, are used for adaptive tests as they allow to model the uncertainty about the questions and the skills in an explainable fashion, especially when coping with multiple skills. A better elicitation of the uncertainty in the question/skills relations can be achieved by interval probabilities. This turns the model into a credal net- work, thus increasing the inferential complexity of the queries required to select questions. This is especially the case for the information-theoretic quantities used as scores to drive the adaptive mechanism. We present an alternative family of scores, based on the mode of the posterior proba- bilities, and hence easier to explain. This makes considerably simpler the evaluation in the credal case, without significantly affecting the quality of the adaptive process. Numerical tests on synthetic and real-world data are used to support this claim.</details>&nbsp;
+
+</p>
+</div><hr>
+</li>
+<li><div class="bibliography">
+
+<a name="mellace2021a"></a>
+<h4><a href="../papers/mellace2021a.pdf">Relation Clustering in Narrative Knowledge Graphs</a></h4>
+<h5>Mellace, Simone and Kanjirangat, Vani and Antonucci, Alessandro (2021).</h5>
+<p class="myitem">
+
+In 
+<i>AI4Narratives Workshop (@ IJCAI-PRICAI 20)</i>.&nbsp;Virtual Event
+
+,&nbsp;January 7 and 8, 2021.&nbsp;
+
+
+
+
+
+
+
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/mellace2021a.pdf">PDF</a>&nbsp;
+
+
+
+<a class="rc3" href="http://ceur-ws.org/Vol-2794/paper5.pdf">URL</a>&nbsp;
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{mellace2021a,
+  author = {Mellace, Simone and Kanjirangat, Vani and Antonucci, Alessandro},
+  booktitle = {{AI4Narratives} Workshop (@ {IJCAI}-{PRICAI} 20)},
+  title = {Relation Clustering in Narrative Knowledge Graphs},
+  year = {2021},
+  address = {Virtual Event},
+  eventdate = {January 7 and 8, 2021},
+  url = {http://ceur-ws.org/Vol-2794/paper5.pdf}
+}
+</pre></details>&nbsp;
+
+<details class="rc3"><summary>ABS</summary>When coping with literary texts such as novels or short stories, the extraction of structured informa- tion in the form of a knowledge graph might be hindered by the huge number of possible relations between the entities corresponding to the characters in the novel and the consequent hurdles in gathering supervised information about them. Such issue is addressed here as an unsupervised task empow- ered by transformers: relational sentences in the original text are embedded (with SBERT) and clustered in order to merge together semantically simi- lar relations. All the sentences in the same cluster are finally summarized (with BART) and a descriptive label extracted from the summary. Preliminary tests show that such clustering might successfully detect similar relations, and provide a valuable pre- processing for semi-supervised approaches.</details>&nbsp;
+
+</p>
+</div><hr>
+</li>
+<li><div class="bibliography">
+
+<a name="termine2021a"></a>
+<h4><a href="../papers/termine2021a.pdf">Robust Model Checking with Imprecise Markov Reward Models</a></h4>
+<h5>Termine, Alberto and Antonucci, Alessandro and Facchini, Alessandro and Primiero, Giuseppe (2021).</h5>
+<p class="myitem">
+
+In De Bock, J. and Cano, A. and Miranda, E. and Moral, S. (Eds),&nbsp;
+
+<i>Proceedings of the Twelfth International Symposium on Imprecise Probabilities: Theories and Applications (ISIPTA ’21)</i>.&nbsp;Granada
+
+,&nbsp;Jul 6-9, 2021.&nbsp;
+
+Proceedings of Machine Learning Research
+&nbsp;147
+,&nbsp;
+PMLR
+,&nbsp;299–309
+.&nbsp;
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/termine2021a.pdf">PDF</a>&nbsp;
+
+
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{termine2021a,
+  author = {Termine, Alberto and Antonucci, Alessandro and Facchini, Alessandro and Primiero, Giuseppe},
+  booktitle = {Proceedings of the Twelfth International Symposium on Imprecise Probabilities: Theories and Applications (ISIPTA '21)},
+  title = {Robust Model Checking with Imprecise Markov Reward Models},
+  year = {2021},
+  address = {Granada},
+  editor = {De Bock, J. and Cano, A. and Miranda, E. and Moral, S.},
+  pages = {299--309},
   publisher = {PMLR},
   series = {Proceedings of Machine Learning Research},
-  eventdate = {Sep 23-25, 2020},
-  location = {Online Event},
-  url = {https://pgm2020.cs.aau.dk}
+  volume = {147},
+  eventdate = {Jul 6-9, 2021}
 }
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">A structural causal model is made of endogenous (manifest) and exogenous (latent) variables. We show that endogenous observations induce linear constraints on the probabilities of the exogenous variables. This allows to exactly map a causal model into a credal network. Causal inferences, such as interventions and counterfactuals, can consequently be obtained by standard algorithms for the updating of credal nets. These natively return sharp values in the identifiable case, while intervals corresponding to the exact bounds are produced for unidentifiable queries. A characterization of the causal models that allow the map above to be compactly derived is given, along with a discussion about the scalability for general models. This contribution should be regarded as a systematic approach to represent structural causal models by credal networks and hence to systematically compute causal inferences. A number of demonstrative examples is presented to clarify our methodology. Extensive experiments show that approximate algorithms for credal networks can immediately be used to do causal inference in real-size problems.</p></details>&nbsp;<a class="mytags" href="../papers/zaffalon2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="https://pgm2020.cs.aau.dk">URL</a>&nbsp;</span></p>
+</pre></details>&nbsp;
 
+<details class="rc3"><summary>ABS</summary>In recent years probabilistic model checking has become an important area of research because of the diffusion of computational systems of stochastic nature. Despite its great success, standard probabilistic model checking suffers the limitation of requiring a sharp specification of the probabilities governing the model behaviour. The theory of imprecise probabilities offers a natural approach to overcome such limitation by a sensitivity analysis with respect to the values of these parameters. However, only extensions based on discrete-time imprecise Markov chains have been considered so far for such a robust approach to model checking. We present a further extension based on imprecise Markov reward models. In particular, we derive efficient algorithms to compute lower and upper bounds of the expected cumulative reward and probabilistic bounded rewards based on existing results for imprecise Markov chains. These ideas are tested on a real case study involving the spend-down costs of geriatric medicine departments.</details>&nbsp;
+
+</p>
 </div><hr>
 </li>
 <li><div class="bibliography">
 
-<a name="huber2020a"></a>
-<h4><a href="../papers/huber2020a.pdf">CREMA: A Java Library for Credal Network Inference</a></h4>
-<h5>Huber, David and Cabañas, Rafael and Antonucci, Alessandro and Zaffalon, Marco (2020).</h5>
+<a name="termine2021b"></a>
+<h4><a href="../papers/termine2021b.pdf">Logic and Model Checking by imprecise Probabilistic Interpreted Systems</a></h4>
+<h5>Termine, Alberto and Antonucci, Alessandro and Primiero, Giuseppe and Facchini, Alessandro (2021).</h5>
 <p class="myitem">
-In Jaeger, Manfred and Nielsen, Thomas Dyhre (Eds),&nbsp;<i>Proceedings of the 10th International Conference on Probabilistic Graphical Models (PGM 2020)</i>.&nbsp;Aalborg, Denmark,&nbsp;Sep 23-25, 2020.&nbsp;&nbsp;Online Event.&nbsp;Proceedings of Machine Learning Research,&nbsp;PMLR.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{huber2020a,
-  author = {Huber, David and Cabañas, Rafael and Antonucci, Alessandro and Zaffalon, Marco},
-  booktitle = {Proceedings of the 10th International Conference on Probabilistic Graphical Models ({PGM} 2020)},
-  title = {CREMA: A Java Library for Credal Network Inference},
-  year = {2020},
-  address = {Aalborg, Denmark},
-  editor = {Jaeger, Manfred and Nielsen, Thomas Dyhre},
-  month = sep,
-  publisher = {PMLR},
-  series = {Proceedings of Machine Learning Research},
-  eventdate = {Sep 23-25, 2020},
-  location = {Online Event},
-  url = {https://pgm2020.cs.aau.dk}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">We present CREMA (Credal Models Algorithms), a Java library for inference in credal networks. These models are analogous to Bayesian networks, but their local parameters are only con- strained to vary in, so-called credal, sets. Inference in credal networks is intended as the com- putation of the bounds of a query with respect to those local variations. For credal networks the task is harder than in Bayesian networks, being NPPP-hard in general models. Yet, scalable approximate algorithms have been shown to provide good accuracies on large or dense mod- els, while exact techniques can be designed to process small or sparse models. CREMA embeds these algorithms and also offers an API to build and query credal networks together with a spec- ification format. This makes CREMA, whose features are discussed and described by a simple example, the most advanced tool for credal network modelling and inference developed so far.</p></details>&nbsp;<a class="mytags" href="../papers/huber2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="https://pgm2020.cs.aau.dk">URL</a>&nbsp;</span></p>
 
-</div><hr>
-</li>
-<li><div class="bibliography">
+In Rosenfeld, A. and Talmon, N. (Eds),&nbsp;
 
-<a name="cabanas2020a"></a>
-<h4><a href="../papers/cabanas2020a.pdf">CREDICI: A Java Library for Causal Inference by Credal Networks</a></h4>
-<h5>Cabañas, Rafael and Antonucci, Alessandro and Huber, David and Zaffalon, Marco (2020).</h5>
-<p class="myitem">
-In Jaeger, Manfred and Nielsen, Thomas Dyhre (Eds),&nbsp;<i>Proceedings of the 10th International Conference on Probabilistic Graphical Models (PGM 2020)</i>.&nbsp;Aalborg, Denmark,&nbsp;Sep 23-25, 2020.&nbsp;&nbsp;Online Event.&nbsp;Proceedings of Machine Learning Research,&nbsp;PMLR.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{cabanas2020a,
-  author = {Cabañas, Rafael and Antonucci, Alessandro and Huber, David and Zaffalon, Marco},
-  booktitle = {Proceedings of the 10th International Conference on Probabilistic Graphical Models ({PGM} 2020)},
-  title = {CREDICI: A Java Library for Causal Inference by Credal Networks},
-  year = {2020},
-  address = {Aalborg, Denmark},
-  editor = {Jaeger, Manfred and Nielsen, Thomas Dyhre},
-  month = sep,
-  publisher = {PMLR},
-  series = {Proceedings of Machine Learning Research},
-  eventdate = {Sep 23-25, 2020},
-  location = {Online Event},
-  url = {https://pgm2020.cs.aau.dk}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">We present CREDICI, a Java open-source tool for causal inference based on credal networks. Credal networks are an extension of Bayesian networks where local probability mass functions are only constrained to belong to given, so-called credal, sets. CREDICI is based on the recent work of Zaffalon et al. (2020), where an equivalence between Pearl’s structural causal models and credal networks has been derived. This allows to reduce a counterfactual query in a causal model to a standard query in a credal network, even in the case of unidentifiable causal effects. The necessary transformations and data structures are implemented in CREDICI, while inferences are eventually computed by CREMA (Huber et al., 2020), a twin library for general credal network inference. Here we discuss the main implementation challenges and possible outlooks.</p></details>&nbsp;<a class="mytags" href="../papers/cabanas2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="https://pgm2020.cs.aau.dk">URL</a>&nbsp;</span></p>
+<i>Multi-Agent Systems. EUMAS 2021. Lecture Notes in Computer Science</i>.
+.&nbsp;
 
-</div><hr>
-</li>
-<li><div class="bibliography">
 
-<a name="maua2020a"></a>
-<h4><a href="../papers/maua2020a.pdf">Two Reformulation Approaches to Maximum-A-Posteriori Inference in Sum-Product Networks</a></h4>
-<h5>Mauà, Denis Deratani and Ribeiro, Heitor and Katague, Gustavo and Antonucci, Alessandro (2020).</h5>
-<p class="myitem">
-In Jaeger, Manfred and Nielsen, Thomas Dyhre (Eds),&nbsp;<i>Proceedings of the 10th International Conference on Probabilistic Graphical Models (PGM 2020)</i>.&nbsp;Aalborg, Denmark,&nbsp;Sep 23-25, 2020.&nbsp;&nbsp;Online Event.&nbsp;Proceedings of Machine Learning Research,&nbsp;PMLR.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{maua2020a,
-  author = {Mauà, Denis Deratani and Ribeiro, Heitor and Katague, Gustavo and Antonucci, Alessandro},
-  booktitle = {Proceedings of the 10th International Conference on Probabilistic Graphical Models ({PGM} 2020)},
-  title = {Two Reformulation Approaches to Maximum-A-Posteriori Inference in Sum-Product Networks},
-  year = {2020},
-  address = {Aalborg, Denmark},
-  editor = {Jaeger, Manfred and Nielsen, Thomas Dyhre},
-  month = sep,
-  publisher = {PMLR},
-  series = {Proceedings of Machine Learning Research},
-  eventdate = {Sep 23-25, 2020},
-  location = {Online Event},
-  url = {https://pgm2020.cs.aau.dk}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">There exists a dichotomy between classical probabilistic graphical models, such as Bayesian net- works (BNs), and modern tractable models, such as sum-product networks (SPNs). The former generally have intractable inference, but provide a high level of interpretability, while the latter admit a wide range of tractable inference routines, but are typically harder to interpret. Due to this dichotomy, tools to convert between BNs and SPNs are desirable. While one direction – compiling BNs into SPNs – is well discussed in Darwiche’s seminal work on arithmetic circuit compilation, the converse direction – decompiling SPNs into BNs – has received surprisingly little attention. In this paper, we fill this gap by proposing SPN2BN, an algorithm that decompiles an SPN into a BN. SPN2BN has several salient features when compared to the only other two works decompiling SPNs. Most significantly, the BNs returned by SPN2BN are minimal independence-maps that are more parsimonious with respect to the introduction of latent variables. Secondly, the output BN produced by SPN2BN can be precisely characterized with respect to a compiled BN. More specifically, a certain set of directed edges will be added to the input BN, giving what we will call the moral-closure. Lastly, it is established that our compilation-decompilation process is idempotent. This has practical significance as it limits the size of the decompiled SPN.</p></details>&nbsp;<a class="mytags" href="../papers/maua2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="https://pgm2020.cs.aau.dk">URL</a>&nbsp;</span></p>
+&nbsp;12802
+,&nbsp;
+Springer, Cham
+,&nbsp;211–227
+.&nbsp;
 
-</div><hr>
-</li>
-<li><div class="bibliography">
+</p>
 
-<a name="antonucci2020a"></a>
-<h4><a href="../papers/antonucci2020a.pdf">Approximate MMAP by Marginal Search</a></h4>
-<h5>Antonucci, Alessandro and Tiotto, Thomas (2020).</h5>
-<p class="myitem">
-In Brawner, Keith W. and Barták, Roman and Bell, Eric (Eds),&nbsp;<i>Proceedings of the Thirty-Third International Florida Artificial Intelligence Research Society Conference (FLAIRS-33)</i>.&nbsp;North Miami Beach, Florida, USA,&nbsp;May 17-20, 2020.&nbsp;AAAI Press,&nbsp;181-184.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{antonucci2020a,
-  author = {Antonucci, Alessandro and Tiotto, Thomas},
-  booktitle = {Proceedings of the Thirty-Third International Florida Artificial Intelligence Research Society Conference (FLAIRS-33)},
-  title = {Approximate {MMAP} by Marginal Search},
-  year = {2020},
-  address = {North Miami Beach, Florida, {USA}},
-  editor = {Brawner, Keith W. and Bart{\'a}k, Roman and Bell, Eric},
-  month = may,
-  pages = {181-184},
-  publisher = {AAAI Press},
-  eventdate = {May 17-20, 2020}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">We present a heuristic strategy for marginal MAP (MMAP) queries in graphical models. The algorithm is based on a reduction of the task to a polynomial number of marginal inference computations. Given an input evidence, the marginals mass functions of the variables to be explained are computed. Marginal information gain is used to decide the variables to be explained first, and their most probable marginal states are consequently moved to the evidence. The sequential iteration of this procedure leads to a MMAP explanation and the minimum information gain obtained during the process can be regarded as a confidence measure for the explanation. Preliminary experiments show that the proposed confidence measure is properly detecting instances for which the algorithm is accurate and, for sufficiently high confidence levels, the algorithm gives the exact solution or an approximation whose Hamming distance from the exact one is small.</p></details>&nbsp;<a class="mytags" href="../papers/antonucci2020a.pdf">PDF</a>&nbsp;</span></p>
 
-</div><hr>
-</li>
-<li><div class="bibliography">
+<p>
+<a class="rc3" href="../papers/termine2021b.pdf">PDF</a>&nbsp;
 
-<a name="kanjirangat2020a"></a>
-<h4><a href="../papers/kanjirangat2020a.pdf">Temporal Embeddings and Transformer Models for Narrative Text Understanding</a></h4>
-<h5>Kanjirangat, Vani and Mellace, Simone and Antonucci, Alessandro (2020).</h5>
-<p class="myitem">
-In Campos, Ricardo and Jorge, Alípio Mário and Jatowt, Adam and Bhatia, Sumit (Eds),&nbsp;<i>Proceedings of Text2Story - Third Workshop on Narrative Extraction From Texts co-located with 42nd European Conference on Information Retrieval (ECIR 2020)</i>.&nbsp;Lisbon, Portugal,&nbsp;Apr 14, 2020.&nbsp;&nbsp;Online Event.&nbsp;&nbsp;2593,&nbsp;CEUR.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{kanjirangat2020a,
-  author = {Kanjirangat, Vani and Mellace, Simone and Antonucci, Alessandro},
-  booktitle = {Proceedings of Text2Story - Third Workshop on Narrative Extraction From Texts co-located with 42nd European Conference on Information Retrieval (ECIR 2020)},
-  title = {Temporal Embeddings and Transformer Models for Narrative Text Understanding},
-  year = {2020},
-  address = {Lisbon, Portugal},
-  editor = {Campos, Ricardo and Jorge, Alípio Mário and Jatowt, Adam and Bhatia, Sumit},
-  month = apr,
-  publisher = {CEUR},
-  volume = {2593},
-  eventdate = {Apr 14, 2020},
-  location = {Online Event},
-  url = {http://ceur-ws.org/Vol-2593/paper9.pdf}
-}
-</pre></details>&nbsp;<a class="mytags" href="../papers/kanjirangat2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="http://ceur-ws.org/Vol-2593/paper9.pdf">URL</a>&nbsp;</span></p>
 
-</div><hr>
-</li>
-<li><div class="bibliography">
+<a class="rc3" href="http://doi.org/https://doi.org/10.1007/978-3-030-82254-5_13">DOI</a>&nbsp;
 
-<a name="mangili2020b"></a>
-<h4><a href="../papers/mangili2020b.pdf">A Bayesian Approach to Conversational Recommendation Systems</a></h4>
-<h5>Mangili, Francesca and Broggini, Denis and Antonucci, Alessandro and Alberti, Marco and Cimasoni, Lorenzo (2020).</h5>
-<p class="myitem">
-In <i>AAAI 2020 Workshop on Interactive and Conversational Recommendation Systems (WICRS-20)</i>.&nbsp;New York, US,&nbsp;Feb 8, 2020.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{mangili2020b,
-  author = {Mangili, Francesca and Broggini, Denis and Antonucci, Alessandro and Alberti, Marco and Cimasoni, Lorenzo},
-  title = {A Bayesian Approach to Conversational Recommendation Systems},
-  year = {2020},
-  month = feb,
-  address = {New York, US},
-  url = {https://sites.google.com/view/wicrs2020},
-  booktitle = {AAAI 2020 Workshop on Interactive and Conversational Recommendation Systems (WICRS-20)},
-  eventdate = {Feb 8, 2020}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">We present a Bayesian approach to conversational recommender systems. After any interaction with the user, a probability mass function over the items is updated by the system. The conversational feature corresponds to a sequential discovery of the user preferences based on questions. Information-theoretic criteria are used to optimally shape the interactions and decide when the conversation ends. Most probable items are consequently recommended. Dedicated elicitation techniques for the prior probabilities of the parameters modelling the interactions are derived from basic structural judgements based on logical compatibility and symmetry assumptions. Such prior knowledge is combined with data for better item discrimination. Our Bayesian approach is validated against matrix factorization techniques for cold-start recommendations based on metadata using the popular benchmark data set MovieLens. Results show that the proposed approach allows to considerably reduce the number of interactions while maintaining good ranking performance.</p></details>&nbsp;<a class="mytags" href="../papers/mangili2020b.pdf">PDF</a>&nbsp;<a class="mytags" href="https://sites.google.com/view/wicrs2020">URL</a>&nbsp;</span></p>
 
-</div><hr>
-</li>
-<li><div class="bibliography">
-
-<a name="volpetti2020a"></a>
-<h4><a href="../papers/volpetti2020a.pdf">Temporal Word Embeddings for Narrative Understanding</a></h4>
-<h5>Claudia Volpetti, Claudia and Kanjirangat, Vani and Antonucci, Alessandro (2020).</h5>
-<p class="myitem">
-In <i>Proceedings of the Twelfth International Conference on Machine Learning and Computing (ICMLC 2020)</i>.&nbsp;Shenzhen, China,&nbsp;Feb 15-17, 2020.&nbsp;&nbsp;Online Event.&nbsp;ACM Press International Conference Proceedings Series,&nbsp;ACM,&nbsp;68-72.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{volpetti2020a,
-  author = {Claudia Volpetti, Claudia and Kanjirangat, Vani and Antonucci, Alessandro},
-  booktitle = {Proceedings of the Twelfth International Conference on Machine Learning and Computing (ICMLC 2020)},
-  title = {Temporal Word Embeddings for Narrative Understanding},
-  year = {2020},
-  address = {Shenzhen, China},
-  month = feb,
-  note = {ISBN: 978-1-4503-7642-6},
-  pages = {68-72},
-  publisher = {ACM},
-  series = {ACM Press International Conference Proceedings Series},
-  doi = {10.1145/3383972.3383988},
-  eventdate = {Feb 15-17, 2020},
-  location = {Online Event}
-}
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">We propose temporal word embeddings as a suitable tool to study the evolution of characters and their sentiments across the plot of a narrative text. The dynamic evolution of instances within a narrative text is a challenging task, where complex behavioral evolutions and other characteristics specific to the narrative text need to be inferred and interpreted. While starting from an existing approach to the learning of these models, we propose an alternative initialization procedure which seems to be especially suited for the case of narrative text. As a validation benchmark, we use the Harry Potter series of books as a challenging case study for such character trait evolution. A benchmark data set based on temporal word analogies related to the characters in the plot of the series is considered. The results are promising, and the empirical validation seems to support the working ideas behind this proposal.</p></details>&nbsp;<a class="mytags" href="../papers/volpetti2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="http://doi.org/10.1145/3383972.3383988">DOI</a>&nbsp;</span></p>
-
-</div><hr>
-</li>
-<li><div class="bibliography">
-
-<h4><a href="https://www.sciencedirect.com/journal/international-journal-of-approximate-reasoning/special-issue/105SKX9CD05">Special Issue on the Tenth International Symposium on Imprecise Probability: Theories and Applications (ISIPTA ’17)</a></h4>
-<h5>Antonucci, Alessandro and Corani, Giorgio and Couso, Inés and Destercke, Sébastien (2020)</h5>
-<p class="myitem">
-International Journal of Approximate Reasoning <b></b>, Elsevier.</p>
-
-</div><hr>
-</li>
-<li><div class="bibliography">
-
-<a name="mangili2020a"></a>
-<h4><a href="../papers/mangili2020a.pdf">Conversational Recommender System by Bayesian Methods</a></h4>
-<h5>Mangili, Francesca and Broggini, Denis and Antonucci, Alessandro (2020).</h5>
-<p class="myitem">
-In Davis, Jesse and Tabia, Karim (Eds),&nbsp;<i>Proceedings of the Fourteenth International Conference on Scalable Uncertainty Management (SUM 2020)</i>.&nbsp;Bozen-Bolzano, Italy,&nbsp;Sep 23-25 2020.&nbsp;&nbsp;Online Event.&nbsp;Lecture Notes in Artificial Intelligence&nbsp;12322,&nbsp;Springer, Cham,&nbsp;200-213.&nbsp;<span><details><summary>BIB</summary><pre class="collapse">@inproceedings{mangili2020a,
-  title = {Conversational Recommender System by Bayesian Methods},
-  author = {Mangili, Francesca and Broggini, Denis and Antonucci, Alessandro},
-  year = {2020},
-  eventdate = {Sep 23-25 2020},
-  address = {Bozen-Bolzano, Italy},
-  booktitle = {Proceedings of the Fourteenth International Conference on Scalable Uncertainty Management (SUM 2020)},
-  doi = {https://doi.org/10.1007/978-3-030-58449-8_14},
-  editor = {Davis, Jesse and Tabia, Karim},
-  isbn = {978-3-030-58449-8},
-  pages = {200-213},
-  location = {Online Event},
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{termine2021b,
+  author = {Termine, Alberto and Antonucci, Alessandro and Primiero, Giuseppe and Facchini, Alessandro},
+  booktitle = {Multi-Agent Systems. {EUMAS} 2021. Lecture Notes in Computer Science},
+  title = {Logic and Model Checking by imprecise Probabilistic Interpreted Systems},
+  year = {2021},
+  editor = {Rosenfeld, A. and Talmon, N.},
+  pages = {211--227},
   publisher = {Springer, Cham},
-  series = {Lecture Notes in Artificial Intelligence},
-  volume = {12322}
+  volume = {12802},
+  doi = {https://doi.org/10.1007/978-3-030-82254-5_13}
 }
-</pre></details>&nbsp;<details><summary>ABS</summary><p class="abstract">We present a Bayesian approach to conversational recom- mender systems. After any interaction with the user, a probability mass function over the items is updated by the system. The conversational feature corresponds to a sequential discovery of the user preferences based on questions. Information-theoretic criteria are used to optimally shape the interactions and decide when the conversation ends. Most probable items are consequently recommended. Dedicated elicitation techniques for the prior probabilities of the parameters modelling the interactions are derived from basic structural judgements based on logical compatibility and symmetry assumptions. Such prior knowledge is combined with data for better item discrimination. Our Bayesian approach is validated against matrix factorization techniques for cold-start recommendations based on metadata using the popular benchmark data set MovieLens. Results show that the proposed approach allows to considerably reduce the number of interactions while maintaining good ranking performance.</p></details>&nbsp;<a class="mytags" href="../papers/mangili2020a.pdf">PDF</a>&nbsp;<a class="mytags" href="http://doi.org/https://doi.org/10.1007/978-3-030-58449-8_14">DOI</a>&nbsp;</span></p>
+</pre></details>&nbsp;
 
+<details class="rc3"><summary>ABS</summary>Stochastic multi-agent systems raise the necessity to extend probabilistic model checking to the epistemic domain. Results in this direction have been achieved by epistemic extensions of Probabilistic Computation Tree Logic and related Probabilistic Interpreted Systems. The latter, however, suffer of an important limitation: they require the probabilities governing the system’s behaviour to be fully specified. A promising way to overcome this limitation is represented by imprecise probabilities. In this paper we introduce imprecise probabilistic interpreted systems and present a related logical language and model-checking procedures based on recent advances in the study of imprecise Markov processes.</details>&nbsp;
+
+</p>
+</div><hr>
+</li>
+<li><div class="bibliography">
+
+<a name="llerena2021a"></a>
+<h4><a href="../papers/llerena2021a.pdf">Cautious Classification with Data Missing not at Random using Generative Random Forests</a></h4>
+<h5>Llerena, Julissa V. and Mauá, Denis. D. and Antonucci, Alessandro (2021).</h5>
+<p class="myitem">
+
+In Vejnarová, J. and Wilson, N. (Eds),&nbsp;
+
+<i>Symbolic and Quantitative Approaches to Reasoning With Uncertainty</i>.&nbsp;Cham
+
+.&nbsp;
+
+
+
+
+Springer International Publishing
+,&nbsp;284–298
+.&nbsp;
+
+</p>
+
+
+<p>
+<a class="rc3" href="../papers/llerena2021a.pdf">PDF</a>&nbsp;
+
+
+<a class="rc3" href="http://doi.org/10.1007/978-3-030-86772-0_21">DOI</a>&nbsp;
+
+
+<details class="rc3"><summary>BIB</summary><pre class="collapse">@inproceedings{llerena2021a,
+  author = {Llerena, Julissa V. and Mau\'a, Denis. D. and Antonucci, Alessandro},
+  booktitle = {Symbolic and Quantitative Approaches to Reasoning With Uncertainty},
+  title = {Cautious Classification with Data Missing not at Random using Generative Random Forests},
+  year = {2021},
+  address = {Cham},
+  editor = {Vejnarov\'a, J. and Wilson, N.},
+  pages = {284--298},
+  publisher = {Springer International Publishing},
+  doi = {10.1007/978-3-030-86772-0_21}
+}
+</pre></details>&nbsp;
+
+<details class="rc3"><summary>ABS</summary>Missing data present a challenge for most machine learning approaches. When a generative probabilistic model of the data is available, an effective approach is to marginalize missing values out. Probabilistic circuits are expressive generative models that allow for efficient exact inference. However, data is often missing not at random, and marginalization can lead to overconfident and wrong conclusions. In this work, we develop an efficient algorithm for assessing the robustness of classifications made by probabilistic circuits to imputations of the non- ignorable portion of missing data at prediction time. We show that our algorithm is exact when the model satisfies certain constraints, which is the case for the recent proposed Generative Random Forests, that equip Random Forest Classifiers with a full probabilistic model of the data. We also show how to extend our approach to handle non-ignorable missing data at training time.</details>&nbsp;
+
+</p>
 </div><hr>
 </li></ol>
 <br/>
